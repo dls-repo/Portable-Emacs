@@ -1,0 +1,39 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+# TailscaleHostsSectionStart
+# This section contains MagicDNS entries for Tailscale.
+# Do not edit this section manually.
+
+100.84.206.107 cloudgamepi.tailc95bed.ts.net. cloudgamepi
+100.78.63.128 desktop-822io9d.tailc95bed.ts.net. desktop-822io9d
+100.107.75.22 fresian-orin.tailc95bed.ts.net. fresian-orin
+100.99.221.104 google-pixel-7a.tailc95bed.ts.net. google-pixel-7a
+100.97.50.19 joshpc.tailc95bed.ts.net. joshpc
+100.114.137.13 macbookarch.tailc95bed.ts.net. macbookarch
+100.71.31.117 mod-aspire-tc-865.tailc95bed.ts.net. mod-aspire-tc-865
+100.107.67.51 raspberrypi.tailc95bed.ts.net. raspberrypi
+100.72.21.58 sammys-pc.tailc95bed.ts.net. sammys-pc
+100.117.114.48 tailscae.tailc95bed.ts.net. tailscae
+100.95.112.120 tailscaleisthepasswd.tailc95bed.ts.net. tailscaleisthepasswd
+100.108.9.53 user.tailc95bed.ts.net. user
+
+# TailscaleHostsSectionEnd
