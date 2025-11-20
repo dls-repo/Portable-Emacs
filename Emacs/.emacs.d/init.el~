@@ -1,0 +1,76 @@
+;; ======================================
+;; Portable Emacs Init Loader
+;; ======================================
+
+;; ----------------------
+;; 1. Theme (safe to load early)
+;; ----------------------
+(load-theme 'zenburn t)
+
+;; ----------------------
+;; 2. MiKTeX Portable PATH setup (must be early)
+;; ----------------------
+(add-to-list 'exec-path "D:/miktex-portable/texmfs/install/miktex/bin/x64")
+(setenv "PATH"
+        (concat "D:/miktex-portable/texmfs/install/miktex/bin/x64;"
+                (getenv "PATH")))
+
+;; ----------------------
+;; 3. Package system setup (modern Emacs auto-initializes packages)
+;; ----------------------
+(setq package-user-dir (expand-file-name "elpa" user-emacs-directory))
+
+;; Add all ELPA subdirectories to load-path so Emacs can find packages
+(let ((default-directory package-user-dir))
+  (normal-top-level-add-subdirs-to-load-path))
+
+;; ----------------------
+;; 4. Org LaTeX preview setup
+;; ----------------------
+(with-eval-after-load 'org
+  ;; Load AUCTeX preview functions
+  (require 'preview)
+
+  ;; Ensure minor mode is enabled in all Org buffers
+  (add-hook 'org-mode-hook #'org-preview-latex-mode)
+
+  ;; Force minor mode in case Org buffer is already open
+  (add-hook 'org-mode-hook (lambda () (org-preview-latex-mode 1)))
+
+  ;; Backend and auto-preview settings
+  (setq org-preview-latex-default-process 'dvisvgm)
+  (setq org-startup-with-latex-preview t)
+  (setq org-latex-preview-output-directory
+        (expand-file-name "tmp" user-emacs-directory)))
+
+;; ----------------------
+;; 5. Paths to config.org and config.el
+;; ----------------------
+(defvar my-config-org (expand-file-name "config.org" user-emacs-directory))
+(defvar my-config-el  (expand-file-name "config.el"  user-emacs-directory))
+
+;; ----------------------
+;; 6. Tangle config.org if needed
+;; ----------------------
+(when (or (not (file-exists-p my-config-el))
+          (file-newer-than-file-p my-config-org my-config-el))
+  (with-temp-message "Tangling config.org..."
+    (require 'org)
+    (require 'ob-tangle)
+    (org-babel-tangle-file my-config-org my-config-el)))
+
+;; ----------------------
+;; 7. Load the generated config.el
+;; ----------------------
+(load-file my-config-el)
+
+;; ----------------------
+;; 8. Custom variables & faces (leave at end)
+;; ----------------------
+(custom-set-variables
+ '(package-selected-packages
+   '(auctex beacon evil ivy pdf-tools zenburn-theme)))
+(custom-set-faces
+ )
+
+

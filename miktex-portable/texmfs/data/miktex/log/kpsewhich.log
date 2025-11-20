@@ -1,0 +1,192 @@
+2025-11-19 20:20:44,356-0800 INFO  kpsewhich - this process (11076) started by emacs in directory d:\Emacs\.emacs.d\elpa\auctex-14.1.0 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:20:44,356-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:20:44,358-0800 INFO  kpsewhich - this process (11076) finishes with exit code 0
+2025-11-19 20:20:44,694-0800 INFO  kpsewhich - this process (1480) started by emacs in directory d:\Emacs\.emacs.d\elpa\auctex-14.1.0 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:20:44,694-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:20:44,696-0800 INFO  kpsewhich - this process (1480) finishes with exit code 0
+2025-11-19 20:20:45,012-0800 INFO  kpsewhich - this process (3300) started by emacs in directory d:\Emacs\.emacs.d\elpa\auctex-14.1.0 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:20:45,013-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:20:45,015-0800 INFO  kpsewhich - this process (3300) finishes with exit code 0
+2025-11-19 20:20:45,341-0800 INFO  kpsewhich - this process (1256) started by emacs in directory d:\Emacs\.emacs.d\elpa\auctex-14.1.0 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:20:45,344-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:20:45,346-0800 INFO  kpsewhich - this process (1256) finishes with exit code 0
+2025-11-19 20:22:21,603-0800 INFO  kpsewhich - this process (13288) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:22:21,606-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:22:21,607-0800 INFO  kpsewhich - this process (13288) finishes with exit code 0
+2025-11-19 20:22:23,910-0800 INFO  kpsewhich - this process (14884) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:22:23,912-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:22:23,915-0800 INFO  kpsewhich - this process (14884) finishes with exit code 0
+2025-11-19 20:22:24,236-0800 INFO  kpsewhich - this process (13908) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:22:24,236-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:22:24,238-0800 INFO  kpsewhich - this process (13908) finishes with exit code 0
+2025-11-19 20:22:24,665-0800 INFO  kpsewhich - this process (10436) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:22:24,667-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:22:24,669-0800 INFO  kpsewhich - this process (10436) finishes with exit code 0
+2025-11-19 20:23:35,443-0800 INFO  kpsewhich - this process (13088) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:23:35,445-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:23:35,447-0800 INFO  kpsewhich - this process (13088) finishes with exit code 0
+2025-11-19 20:23:35,794-0800 INFO  kpsewhich - this process (7384) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:23:35,796-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:23:35,799-0800 INFO  kpsewhich - this process (7384) finishes with exit code 0
+2025-11-19 20:23:36,129-0800 INFO  kpsewhich - this process (10916) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:23:36,130-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:23:36,132-0800 INFO  kpsewhich - this process (10916) finishes with exit code 0
+2025-11-19 20:23:36,486-0800 INFO  kpsewhich - this process (15648) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:23:36,488-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:23:36,490-0800 INFO  kpsewhich - this process (15648) finishes with exit code 0
+2025-11-19 20:24:09,379-0800 INFO  kpsewhich - this process (4016) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:24:09,381-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:24:09,383-0800 INFO  kpsewhich - this process (4016) finishes with exit code 0
+2025-11-19 20:24:09,706-0800 INFO  kpsewhich - this process (5000) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:24:09,706-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:24:09,708-0800 INFO  kpsewhich - this process (5000) finishes with exit code 0
+2025-11-19 20:24:10,053-0800 INFO  kpsewhich - this process (3912) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:24:10,055-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:24:10,057-0800 INFO  kpsewhich - this process (3912) finishes with exit code 0
+2025-11-19 20:24:10,402-0800 INFO  kpsewhich - this process (20220) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:24:10,404-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:24:10,406-0800 INFO  kpsewhich - this process (20220) finishes with exit code 0
+2025-11-19 20:24:54,888-0800 INFO  kpsewhich - this process (12800) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:24:54,891-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:24:54,893-0800 INFO  kpsewhich - this process (12800) finishes with exit code 0
+2025-11-19 20:24:55,249-0800 INFO  kpsewhich - this process (8008) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:24:55,251-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:24:55,253-0800 INFO  kpsewhich - this process (8008) finishes with exit code 0
+2025-11-19 20:24:55,577-0800 INFO  kpsewhich - this process (14208) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:24:55,577-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:24:55,579-0800 INFO  kpsewhich - this process (14208) finishes with exit code 0
+2025-11-19 20:24:55,924-0800 INFO  kpsewhich - this process (17084) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:24:55,926-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:24:55,929-0800 INFO  kpsewhich - this process (17084) finishes with exit code 0
+2025-11-19 20:29:10,208-0800 INFO  kpsewhich - this process (13248) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:29:10,211-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:29:10,212-0800 INFO  kpsewhich - this process (13248) finishes with exit code 0
+2025-11-19 20:29:10,531-0800 INFO  kpsewhich - this process (15260) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:29:10,531-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:29:10,534-0800 INFO  kpsewhich - this process (15260) finishes with exit code 0
+2025-11-19 20:29:10,862-0800 INFO  kpsewhich - this process (9072) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:29:10,864-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:29:10,866-0800 INFO  kpsewhich - this process (9072) finishes with exit code 0
+2025-11-19 20:29:11,199-0800 INFO  kpsewhich - this process (7836) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:29:11,199-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:29:11,201-0800 INFO  kpsewhich - this process (7836) finishes with exit code 0
+2025-11-19 20:30:59,747-0800 INFO  kpsewhich - this process (8744) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:30:59,750-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:30:59,751-0800 INFO  kpsewhich - this process (8744) finishes with exit code 0
+2025-11-19 20:31:00,106-0800 INFO  kpsewhich - this process (4060) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:31:00,108-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:31:00,111-0800 INFO  kpsewhich - this process (4060) finishes with exit code 0
+2025-11-19 20:31:00,434-0800 INFO  kpsewhich - this process (7300) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:31:00,434-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:31:00,436-0800 INFO  kpsewhich - this process (7300) finishes with exit code 0
+2025-11-19 20:31:00,793-0800 INFO  kpsewhich - this process (15104) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:31:00,796-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:31:00,798-0800 INFO  kpsewhich - this process (15104) finishes with exit code 0
+2025-11-19 20:32:26,747-0800 INFO  kpsewhich - this process (12316) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:32:26,750-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:32:26,752-0800 INFO  kpsewhich - this process (12316) finishes with exit code 0
+2025-11-19 20:32:27,108-0800 INFO  kpsewhich - this process (12724) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:32:27,110-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:32:27,113-0800 INFO  kpsewhich - this process (12724) finishes with exit code 0
+2025-11-19 20:32:27,437-0800 INFO  kpsewhich - this process (13752) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:32:27,437-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:32:27,439-0800 INFO  kpsewhich - this process (13752) finishes with exit code 0
+2025-11-19 20:32:27,789-0800 INFO  kpsewhich - this process (10252) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:32:27,791-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:32:27,793-0800 INFO  kpsewhich - this process (10252) finishes with exit code 0
+2025-11-19 20:33:27,745-0800 INFO  kpsewhich - this process (12272) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:33:27,748-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:33:27,750-0800 INFO  kpsewhich - this process (12272) finishes with exit code 0
+2025-11-19 20:33:28,108-0800 INFO  kpsewhich - this process (10672) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:33:28,110-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:33:28,113-0800 INFO  kpsewhich - this process (10672) finishes with exit code 0
+2025-11-19 20:33:28,446-0800 INFO  kpsewhich - this process (1472) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:33:28,446-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:33:28,448-0800 INFO  kpsewhich - this process (1472) finishes with exit code 0
+2025-11-19 20:33:28,786-0800 INFO  kpsewhich - this process (4208) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:33:28,788-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:33:28,790-0800 INFO  kpsewhich - this process (4208) finishes with exit code 0
+2025-11-19 20:35:18,348-0800 INFO  kpsewhich - this process (3040) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:35:18,351-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:35:18,352-0800 INFO  kpsewhich - this process (3040) finishes with exit code 0
+2025-11-19 20:35:20,686-0800 INFO  kpsewhich - this process (9172) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:35:20,689-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:35:20,691-0800 INFO  kpsewhich - this process (9172) finishes with exit code 0
+2025-11-19 20:35:21,102-0800 INFO  kpsewhich - this process (4552) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:35:21,104-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:35:21,106-0800 INFO  kpsewhich - this process (4552) finishes with exit code 0
+2025-11-19 20:35:21,431-0800 INFO  kpsewhich - this process (7096) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:35:21,434-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:35:21,436-0800 INFO  kpsewhich - this process (7096) finishes with exit code 0
+2025-11-19 20:37:47,158-0800 INFO  kpsewhich - this process (2028) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:37:47,161-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:37:47,163-0800 INFO  kpsewhich - this process (2028) finishes with exit code 0
+2025-11-19 20:37:47,511-0800 INFO  kpsewhich - this process (4592) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:37:47,513-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:37:47,515-0800 INFO  kpsewhich - this process (4592) finishes with exit code 0
+2025-11-19 20:37:47,843-0800 INFO  kpsewhich - this process (7048) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:37:47,844-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:37:47,846-0800 INFO  kpsewhich - this process (7048) finishes with exit code 0
+2025-11-19 20:37:48,209-0800 INFO  kpsewhich - this process (4872) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:37:48,211-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:37:48,214-0800 INFO  kpsewhich - this process (4872) finishes with exit code 0
+2025-11-19 20:38:34,472-0800 INFO  kpsewhich - this process (19996) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:38:34,474-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:38:34,475-0800 INFO  kpsewhich - this process (19996) finishes with exit code 0
+2025-11-19 20:38:36,791-0800 INFO  kpsewhich - this process (3252) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:38:36,793-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:38:36,795-0800 INFO  kpsewhich - this process (3252) finishes with exit code 0
+2025-11-19 20:38:37,116-0800 INFO  kpsewhich - this process (10788) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:38:37,119-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:38:37,121-0800 INFO  kpsewhich - this process (10788) finishes with exit code 0
+2025-11-19 20:38:37,461-0800 INFO  kpsewhich - this process (14008) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:38:37,463-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:38:37,465-0800 INFO  kpsewhich - this process (14008) finishes with exit code 0
+2025-11-19 20:41:57,919-0800 INFO  kpsewhich - this process (896) started by emacs in directory d:\Emacs\.emacs.d\elpa\auctex-14.1.0 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 20:41:57,921-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:41:57,923-0800 INFO  kpsewhich - this process (896) finishes with exit code 0
+2025-11-19 20:41:58,235-0800 INFO  kpsewhich - this process (9168) started by emacs in directory d:\Emacs\.emacs.d\elpa\auctex-14.1.0 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 20:41:58,236-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:41:58,238-0800 INFO  kpsewhich - this process (9168) finishes with exit code 0
+2025-11-19 20:41:58,548-0800 INFO  kpsewhich - this process (12916) started by emacs in directory d:\Emacs\.emacs.d\elpa\auctex-14.1.0 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 20:41:58,548-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:41:58,550-0800 INFO  kpsewhich - this process (12916) finishes with exit code 0
+2025-11-19 20:41:58,952-0800 INFO  kpsewhich - this process (2644) started by emacs in directory d:\Emacs\.emacs.d\elpa\auctex-14.1.0 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 20:41:58,955-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 20:41:58,957-0800 INFO  kpsewhich - this process (2644) finishes with exit code 0
+2025-11-19 21:02:03,360-0800 INFO  kpsewhich - this process (12304) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 21:02:03,362-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:02:03,364-0800 INFO  kpsewhich - this process (12304) finishes with exit code 0
+2025-11-19 21:02:03,756-0800 INFO  kpsewhich - this process (15716) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 21:02:03,758-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:02:03,770-0800 INFO  kpsewhich - this process (15716) finishes with exit code 0
+2025-11-19 21:02:04,080-0800 INFO  kpsewhich - this process (14160) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 21:02:04,080-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:02:04,082-0800 INFO  kpsewhich - this process (14160) finishes with exit code 0
+2025-11-19 21:02:04,396-0800 INFO  kpsewhich - this process (7236) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 21:02:04,396-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:02:04,398-0800 INFO  kpsewhich - this process (7236) finishes with exit code 0
+2025-11-19 21:09:14,610-0800 INFO  kpsewhich - this process (1824) started by emacs in directory d:\Emacs\.emacs.d\elpa\help-find-org-mode-20181204.234 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 21:09:14,612-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:09:14,614-0800 INFO  kpsewhich - this process (1824) finishes with exit code 0
+2025-11-19 21:09:14,927-0800 INFO  kpsewhich - this process (15552) started by emacs in directory d:\Emacs\.emacs.d\elpa\help-find-org-mode-20181204.234 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 21:09:14,928-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:09:14,931-0800 INFO  kpsewhich - this process (15552) finishes with exit code 0
+2025-11-19 21:09:15,248-0800 INFO  kpsewhich - this process (20000) started by emacs in directory d:\Emacs\.emacs.d\elpa\help-find-org-mode-20181204.234 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 21:09:15,248-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:09:15,250-0800 INFO  kpsewhich - this process (20000) finishes with exit code 0
+2025-11-19 21:09:15,570-0800 INFO  kpsewhich - this process (8976) started by emacs in directory d:\Emacs\.emacs.d\elpa\help-find-org-mode-20181204.234 with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 21:09:15,571-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:09:15,573-0800 INFO  kpsewhich - this process (8976) finishes with exit code 0
+2025-11-19 21:13:26,764-0800 INFO  kpsewhich - this process (2220) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-19 21:13:26,767-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:13:26,768-0800 INFO  kpsewhich - this process (2220) finishes with exit code 0
+2025-11-19 21:13:27,086-0800 INFO  kpsewhich - this process (13884) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-19 21:13:27,090-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:13:27,093-0800 INFO  kpsewhich - this process (13884) finishes with exit code 0
+2025-11-19 21:13:27,407-0800 INFO  kpsewhich - this process (1980) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-19 21:13:27,407-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:13:27,409-0800 INFO  kpsewhich - this process (1980) finishes with exit code 0
+2025-11-19 21:13:27,729-0800 INFO  kpsewhich - this process (2648) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-19 21:13:27,730-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-19 21:13:27,732-0800 INFO  kpsewhich - this process (2648) finishes with exit code 0

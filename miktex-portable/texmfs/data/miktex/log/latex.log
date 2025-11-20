@@ -1,0 +1,75 @@
+2025-11-19 21:10:32,396-0800 INFO  latex - this process (7900) started by cmdproxy in directory d:\Emacs with command line: latex -interaction nonstopmode -output-directory c:/Users/mod/AppData/Local/Temp/ c:/Users/mod/AppData/Local/Temp/orgtexGadRjl.tex
+2025-11-19 21:10:32,396-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-19 21:10:32,398-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-19 21:10:32,425-0800 INFO  latex - allowing known shell commands
+2025-11-19 21:10:32,432-0800 INFO  latex - setting output directory: c:/Users\mod\AppData\Local\Temp
+2025-11-19 21:10:32,432-0800 INFO  latex - setting aux directory: c:/Users\mod\AppData\Local\Temp
+2025-11-19 21:10:32,439-0800 INFO  latex - going to create file: latex.fmt
+2025-11-19 21:10:32,439-0800 INFO  latex.core - start process: miktex --enable-installer formats build latex --engine pdftex
+2025-11-19 21:10:45,719-0800 INFO  latex - installing package ulem triggered by tex/latex/ulem\ulem.sty
+2025-11-19 21:10:45,721-0800 INFO  latex.packagemanager - going to download https://api2.miktex.org/hello
+2025-11-19 21:10:46,400-0800 INFO  latex.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2025-11-19 21:10:46,573-0800 INFO  latex - mpm: starting package maintenance...
+2025-11-19 21:10:46,573-0800 INFO  latex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-19 21:10:46,573-0800 INFO  latex - mpm: package repository: https://mirrors.aliyun.com/CTAN/systems/win32/miktex/tm/packages/
+2025-11-19 21:10:47,667-0800 WARN  latex.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2025-11-19 21:10:47,667-0800 WARN  latex.packagemanager - dependency problem: sttools is required by _miktex-latex-packages
+2025-11-19 21:10:47,667-0800 WARN  latex.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2025-11-19 21:10:47,669-0800 WARN  latex.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2025-11-19 21:10:48,107-0800 INFO  latex - mpm: package repository digest: b04fe83e5f7d292e8877a62181fe186f
+2025-11-19 21:10:48,107-0800 INFO  latex - mpm: going to download 173224 bytes
+2025-11-19 21:10:48,107-0800 INFO  latex - mpm: going to install 5 file(s) (1 package(s))
+2025-11-19 21:10:48,863-0800 INFO  latex.packagemanager - installing package ulem
+2025-11-19 21:10:48,864-0800 INFO  latex - mpm: downloading https://mirrors.aliyun.com/CTAN/systems/win32/miktex/tm/packages/ulem.tar.lzma...
+2025-11-19 21:10:48,866-0800 INFO  latex.packagemanager - going to download https://mirrors.aliyun.com/CTAN/systems/win32/miktex/tm/packages/ulem.tar.lzma
+2025-11-19 21:10:49,648-0800 INFO  latex - mpm: 0.17 MB, 1.77 Mbit/s
+2025-11-19 21:10:49,658-0800 INFO  latex - mpm: extracting files from ulem.tar.lzma...
+2025-11-19 21:11:11,980-0800 INFO  latex.core - start process: miktex fontmaps configure
+2025-11-19 21:11:14,448-0800 INFO  latex - this process (7900) finishes with exit code 0
+2025-11-19 21:11:45,775-0800 INFO  latex - this process (14676) started by cmdproxy in directory d:\Emacs with command line: latex -interaction nonstopmode -output-directory c:/Users/mod/AppData/Local/Temp/ c:/Users/mod/AppData/Local/Temp/orgtexy6TshB.tex
+2025-11-19 21:11:45,777-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-19 21:11:45,778-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-19 21:11:45,780-0800 INFO  latex - allowing known shell commands
+2025-11-19 21:11:45,786-0800 INFO  latex - setting output directory: c:/Users\mod\AppData\Local\Temp
+2025-11-19 21:11:45,787-0800 INFO  latex - setting aux directory: c:/Users\mod\AppData\Local\Temp
+2025-11-19 21:11:45,940-0800 INFO  latex - this process (14676) finishes with exit code 0
+2025-11-19 21:12:06,400-0800 INFO  latex - this process (17636) started by cmdproxy in directory d:\Emacs with command line: latex -interaction nonstopmode -output-directory c:/Users/mod/AppData/Local/Temp/ c:/Users/mod/AppData/Local/Temp/orgtexpj0tDw.tex
+2025-11-19 21:12:06,402-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-19 21:12:06,404-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-19 21:12:06,405-0800 INFO  latex - allowing known shell commands
+2025-11-19 21:12:06,412-0800 INFO  latex - setting output directory: c:/Users\mod\AppData\Local\Temp
+2025-11-19 21:12:06,412-0800 INFO  latex - setting aux directory: c:/Users\mod\AppData\Local\Temp
+2025-11-19 21:12:06,556-0800 INFO  latex - this process (17636) finishes with exit code 0
+2025-11-19 21:14:09,571-0800 INFO  latex - this process (20248) started by cmdproxy in directory d:\Emacs with command line: latex -interaction nonstopmode -output-directory c:/Users/mod/AppData/Local/Temp/ c:/Users/mod/AppData/Local/Temp/orgtexIOkwyp.tex
+2025-11-19 21:14:09,573-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-19 21:14:09,575-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-19 21:14:09,576-0800 INFO  latex - allowing known shell commands
+2025-11-19 21:14:09,582-0800 INFO  latex - setting output directory: c:/Users\mod\AppData\Local\Temp
+2025-11-19 21:14:09,583-0800 INFO  latex - setting aux directory: c:/Users\mod\AppData\Local\Temp
+2025-11-19 21:14:09,724-0800 INFO  latex - this process (20248) finishes with exit code 0
+2025-11-19 21:14:29,231-0800 INFO  latex - this process (16704) started by cmdproxy in directory d:\Emacs with command line: latex -interaction nonstopmode -output-directory c:/Users/mod/AppData/Local/Temp/ c:/Users/mod/AppData/Local/Temp/orgtexa2dJ8Y.tex
+2025-11-19 21:14:29,234-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-19 21:14:29,235-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-19 21:14:29,236-0800 INFO  latex - allowing known shell commands
+2025-11-19 21:14:29,243-0800 INFO  latex - setting output directory: c:/Users\mod\AppData\Local\Temp
+2025-11-19 21:14:29,243-0800 INFO  latex - setting aux directory: c:/Users\mod\AppData\Local\Temp
+2025-11-19 21:14:29,383-0800 INFO  latex - this process (16704) finishes with exit code 0
+2025-11-19 22:08:15,043-0800 INFO  latex - this process (11208) started by cmdproxy in directory d:\Emacs with command line: D:/miktex-portable/texmfs/install/miktex/bin/x64/latex.exe --version
+2025-11-19 22:08:15,046-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-19 22:08:15,047-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-19 22:08:15,048-0800 INFO  latex - allowing known shell commands
+2025-11-19 22:08:15,062-0800 INFO  latex - this process (11208) finishes with exit code 0
+2025-11-19 22:10:48,424-0800 INFO  latex - this process (15496) started by cmd in directory d:\Emacs with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\latex.exe -interaction nonstopmode -output-directory D:\Emacs\.emacs.d\tmp\latex D:\Emacs\.emacs.d\tmp\latex\test.tex
+2025-11-19 22:10:48,426-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-19 22:10:48,428-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-19 22:10:48,429-0800 INFO  latex - allowing known shell commands
+2025-11-19 22:10:48,436-0800 INFO  latex - setting output directory: D:\Emacs\.emacs.d\tmp\latex
+2025-11-19 22:10:48,436-0800 INFO  latex - setting aux directory: D:\Emacs\.emacs.d\tmp\latex
+2025-11-19 22:10:48,561-0800 INFO  latex - this process (15496) finishes with exit code 0
+2025-11-19 22:24:32,421-0800 INFO  latex - this process (9248) started by cmdproxy in directory d:\Emacs with command line: d:/miktex-portable/texmfs/install/miktex/bin/x64/latex.exe -interaction nonstopmode -output-directory .emacs.d/tmp/latex/ .emacs.d/tmp/latex/orgtex7hRckj.tex
+2025-11-19 22:24:32,421-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-19 22:24:32,422-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-19 22:24:32,424-0800 INFO  latex - allowing known shell commands
+2025-11-19 22:24:32,430-0800 INFO  latex - setting output directory: d:\Emacs\.emacs.d\tmp\latex
+2025-11-19 22:24:32,431-0800 INFO  latex - setting aux directory: d:\Emacs\.emacs.d\tmp\latex
+2025-11-19 22:24:32,601-0800 INFO  latex - this process (9248) finishes with exit code 0

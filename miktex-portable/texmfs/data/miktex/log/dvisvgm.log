@@ -1,0 +1,57 @@
+2025-11-19 21:11:14,911-0800 INFO  dvisvgm - this process (8404) started by cmdproxy in directory d:\Emacs with command line: dvisvgm c:/Users/mod/AppData/Local/Temp/orgtexGadRjl.dvi --no-fonts --exact-bbox --scale=1.3478571428571429 --output=c:/Users/mod/AppData/Local/Temp/orgtexGadRjl.svg
+2025-11-19 21:11:14,911-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-19 21:11:14,916-0800 ERROR dvisvgm.core - The parameter is incorrect.
+
+2025-11-19 21:11:14,916-0800 ERROR dvisvgm.core - Function: GetFileAttributesW
+2025-11-19 21:11:14,916-0800 ERROR dvisvgm.core - Result: 87
+2025-11-19 21:11:14,916-0800 ERROR dvisvgm.core - Data: path="."
+2025-11-19 21:11:14,916-0800 ERROR dvisvgm.core - Source: Libraries\MiKTeX\Core\Directory\win\winDirectory.cpp:94
+2025-11-19 21:11:14,917-0800 INFO  dvisvgm - this process (8404) finishes with exit code -4
+2025-11-19 21:11:46,277-0800 INFO  dvisvgm - this process (15496) started by cmdproxy in directory d:\Emacs with command line: dvisvgm c:/Users/mod/AppData/Local/Temp/orgtexy6TshB.dvi --no-fonts --exact-bbox --scale=1.3478571428571429 --output=c:/Users/mod/AppData/Local/Temp/orgtexy6TshB.svg
+2025-11-19 21:11:46,279-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-19 21:11:46,282-0800 ERROR dvisvgm.core - The parameter is incorrect.
+
+2025-11-19 21:11:46,282-0800 ERROR dvisvgm.core - Function: GetFileAttributesW
+2025-11-19 21:11:46,282-0800 ERROR dvisvgm.core - Result: 87
+2025-11-19 21:11:46,282-0800 ERROR dvisvgm.core - Data: path="."
+2025-11-19 21:11:46,282-0800 ERROR dvisvgm.core - Source: Libraries\MiKTeX\Core\Directory\win\winDirectory.cpp:94
+2025-11-19 21:11:46,282-0800 INFO  dvisvgm - this process (15496) finishes with exit code -4
+2025-11-19 21:12:06,886-0800 INFO  dvisvgm - this process (13572) started by cmdproxy in directory d:\Emacs with command line: dvisvgm c:/Users/mod/AppData/Local/Temp/orgtexpj0tDw.dvi --no-fonts --exact-bbox --scale=1.3478571428571429 --output=c:/Users/mod/AppData/Local/Temp/orgtexpj0tDw.svg
+2025-11-19 21:12:06,888-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-19 21:12:06,891-0800 ERROR dvisvgm.core - The parameter is incorrect.
+
+2025-11-19 21:12:06,891-0800 ERROR dvisvgm.core - Function: GetFileAttributesW
+2025-11-19 21:12:06,891-0800 ERROR dvisvgm.core - Result: 87
+2025-11-19 21:12:06,891-0800 ERROR dvisvgm.core - Data: path="."
+2025-11-19 21:12:06,891-0800 ERROR dvisvgm.core - Source: Libraries\MiKTeX\Core\Directory\win\winDirectory.cpp:94
+2025-11-19 21:12:06,892-0800 INFO  dvisvgm - this process (13572) finishes with exit code -4
+2025-11-19 21:14:10,056-0800 INFO  dvisvgm - this process (5160) started by cmdproxy in directory d:\Emacs with command line: dvisvgm c:/Users/mod/AppData/Local/Temp/orgtexIOkwyp.dvi --no-fonts --exact-bbox --scale=1.3478571428571429 --output=c:/Users/mod/AppData/Local/Temp/orgtexIOkwyp.svg
+2025-11-19 21:14:10,058-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-19 21:14:10,061-0800 ERROR dvisvgm.core - The parameter is incorrect.
+
+2025-11-19 21:14:10,061-0800 ERROR dvisvgm.core - Function: GetFileAttributesW
+2025-11-19 21:14:10,061-0800 ERROR dvisvgm.core - Result: 87
+2025-11-19 21:14:10,061-0800 ERROR dvisvgm.core - Data: path="."
+2025-11-19 21:14:10,061-0800 ERROR dvisvgm.core - Source: Libraries\MiKTeX\Core\Directory\win\winDirectory.cpp:94
+2025-11-19 21:14:10,061-0800 INFO  dvisvgm - this process (5160) finishes with exit code -4
+2025-11-19 21:14:29,714-0800 INFO  dvisvgm - this process (19464) started by cmdproxy in directory d:\Emacs with command line: dvisvgm c:/Users/mod/AppData/Local/Temp/orgtexa2dJ8Y.dvi --no-fonts --exact-bbox --scale=1.3478571428571429 --output=c:/Users/mod/AppData/Local/Temp/orgtexa2dJ8Y.svg
+2025-11-19 21:14:29,714-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-19 21:14:29,716-0800 ERROR dvisvgm.core - The parameter is incorrect.
+
+2025-11-19 21:14:29,716-0800 ERROR dvisvgm.core - Function: GetFileAttributesW
+2025-11-19 21:14:29,716-0800 ERROR dvisvgm.core - Result: 87
+2025-11-19 21:14:29,716-0800 ERROR dvisvgm.core - Data: path="."
+2025-11-19 21:14:29,717-0800 ERROR dvisvgm.core - Source: Libraries\MiKTeX\Core\Directory\win\winDirectory.cpp:94
+2025-11-19 21:14:29,717-0800 INFO  dvisvgm - this process (19464) finishes with exit code -4
+2025-11-19 22:08:45,310-0800 INFO  dvisvgm - this process (1644) started by cmdproxy in directory d:\Emacs with command line: D:/miktex-portable/texmfs/install/miktex/bin/x64/dvisvgm.exe --version
+2025-11-19 22:08:45,312-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-19 22:08:45,314-0800 INFO  dvisvgm - this process (1644) finishes with exit code 0
+2025-11-19 22:11:18,910-0800 INFO  dvisvgm - this process (9296) started by cmd in directory d:\Emacs with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\dvisvgm.exe D:\Emacs\.emacs.d\tmp\latex\test.dvi -n -b min -c -o D:\Emacs\.emacs.d\tmp\latex\test.svg
+2025-11-19 22:11:19,003-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-19 22:11:19,005-0800 INFO  dvisvgm - this process (9296) finishes with exit code -4
+2025-11-19 22:13:45,986-0800 INFO  dvisvgm - this process (6036) started by cmd in directory d:\Emacs with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\dvisvgm.exe D:\Emacs\.emacs.d\tmp\latex\test.dvi -n -b min -o D:\Emacs\.emacs.d\tmp\latex\test.svg
+2025-11-19 22:13:45,989-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-19 22:13:46,245-0800 INFO  dvisvgm - this process (6036) finishes with exit code 0
+2025-11-19 22:24:32,929-0800 INFO  dvisvgm - this process (20200) started by cmdproxy in directory d:\Emacs with command line: d:/miktex-portable/texmfs/install/miktex/bin/x64/dvisvgm.exe .emacs.d/tmp/latex/orgtex7hRckj.dvi -n -b min -o d:/Emacs/.emacs.d/tmp/latex/orgtex7hRckj.svg
+2025-11-19 22:24:32,929-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-19 22:24:33,023-0800 INFO  dvisvgm - this process (20200) finishes with exit code 0

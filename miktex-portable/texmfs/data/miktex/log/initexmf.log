@@ -1,0 +1,17 @@
+2025-11-19 19:43:26,421-0800 INFO  initexmf - this is MiKTeX Configuration Utility 5.5 (MiKTeX 24.1 Portable)
+2025-11-19 19:43:26,421-0800 INFO  initexmf - this process (9236) started by miktex-portable in directory D:\ with command line: initexmf --default-paper-size=A4 --disable-installer --verbose
+2025-11-19 19:43:26,421-0800 INFO  initexmf - Operating on the private (per-user) MiKTeX setup
+2025-11-19 19:43:26,474-0800 INFO  initexmf - this process (9236) finishes with exit code 0
+2025-11-19 19:43:26,714-0800 INFO  initexmf - this is MiKTeX Configuration Utility 5.5 (MiKTeX 24.1 Portable)
+2025-11-19 19:43:26,714-0800 INFO  initexmf - this process (7356) started by miktex-portable in directory D:\ with command line: initexmf --set-config-value=[MPM]AutoInstall=2 --disable-installer --verbose
+2025-11-19 19:43:26,714-0800 INFO  initexmf - Operating on the private (per-user) MiKTeX setup
+2025-11-19 19:43:26,714-0800 INFO  initexmf - Setting config value: [MPM]AutoInstall=2
+2025-11-19 19:43:26,780-0800 INFO  initexmf - this process (7356) finishes with exit code 0
+2025-11-19 19:43:33,632-0800 INFO  initexmf - this is MiKTeX Configuration Utility 5.5 (MiKTeX 24.1 Portable)
+2025-11-19 19:43:33,632-0800 INFO  initexmf - this process (12808) started by miktex-portable in directory D:\ with command line: initexmf --report --disable-installer --verbose
+2025-11-19 19:43:33,632-0800 INFO  initexmf - Operating on the private (per-user) MiKTeX setup
+2025-11-19 19:43:33,636-0800 ERROR initexmf.core - Something is wrong with the PATH:
+2025-11-19 19:43:33,636-0800 ERROR initexmf.core - C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2025b\runtime\win64;C:\Program Files\MATLAB\R2025b\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Tailscale\;C:\Program Files\Sunshine;C:\Program Files\Sunshine\tools;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Git\cmd;C:\Users\mod\AppData\Local\Microsoft\WindowsApps;
+2025-11-19 19:43:33,640-0800 ERROR initexmf.core - Something is wrong with the PATH:
+2025-11-19 19:43:33,640-0800 ERROR initexmf.core - C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2025b\runtime\win64;C:\Program Files\MATLAB\R2025b\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Tailscale\;C:\Program Files\Sunshine;C:\Program Files\Sunshine\tools;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Git\cmd;C:\Users\mod\AppData\Local\Microsoft\WindowsApps;
+2025-11-19 19:43:33,733-0800 INFO  initexmf - this process (12808) finishes with exit code 0
