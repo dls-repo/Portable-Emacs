@@ -69,27 +69,15 @@
   ;; Optional: auto-update Elfeed when opening search buffer
   (add-hook 'elfeed-search-mode-hook 'elfeed-update))
 
-;; --- Evil-mode compatibility for Elfeed ---
-
-(with-eval-after-load 'evil
-  (with-eval-after-load 'elfeed-search
-    ;; Use normal Evil everywhere, but fix RET and q
-    (evil-set-initial-state 'elfeed-show-mode 'emacs)
-    (evil-set-initial-state 'elfeed-search-mode 'emacs)
-    (define-key evil-emacs-state-map "h" #'backward-char)
-    (define-key evil-emacs-state-map "l" #'forward-char)
-    (define-key evil-emacs-state-map "j" #'next-line)
-    (define-key evil-emacs-state-map "k" #'previous-line)
-    (define-key evil-emacs-state-map "gg" #'beginning-of-buffer)
-    (define-key evil-emacs-state-map "G" #'end-of-buffer)
-    (define-key evil-emacs-state-map "/" #'evil-ex-search-forward)
-    (define-key evil-emacs-state-map "n" #'evil-ex-search-next)
-    (define-key evil-emacs-state-map "N" #'evil-ex-search-previous)
-    (define-key evil-emacs-state-map (kbd "C-u") #'scroll-up-command)
-    (define-key evil-emacs-state-map (kbd "C-d") #'scroll-down-command)))
-
 ;; Fix for C-u in Normal mode to scroll like Vim
 (setq evil-want-C-u-scroll t)
+
+;; Use evil-collection for bindings
+(setq evil-want-integration t) ;; This is optional since it's already set to t by default.
+(setq evil-want-keybinding nil)
+(require 'evil)
+(when (require 'evil-collection nil t)
+  (evil-collection-init))
 
 (use-package evil
   :defer 0
@@ -108,3 +96,9 @@
   (ivy-mode 1)
   (setq ivy-use-virtual-buffers t
         enable-recursive-minibuffers t))
+
+(with-eval-after-load 'evil
+  (define-key evil-normal-state-map (kbd "C-<left>") #'evil-window-left)
+  (define-key evil-normal-state-map (kbd "C-<up>") #'evil-window-up)
+  (define-key evil-normal-state-map (kbd "C-<down>") #'evil-window-down)
+  (define-key evil-normal-state-map (kbd "C-<right>") #'evil-window-right))

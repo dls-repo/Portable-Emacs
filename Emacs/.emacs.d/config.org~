@@ -88,6 +88,7 @@ Elfeed-tube takes advantage of mpv to play YouTube videos from the RSS feed
   (elfeed-tube-setup)
   ;; Optional: auto-update Elfeed when opening search buffer
   (add-hook 'elfeed-search-mode-hook 'elfeed-update))
+
 ;; --- Evil-mode compatibility for Elfeed ---
 
 (with-eval-after-load 'evil
@@ -102,6 +103,8 @@ Elfeed-tube takes advantage of mpv to play YouTube videos from the RSS feed
     (define-key evil-emacs-state-map "gg" #'beginning-of-buffer)
     (define-key evil-emacs-state-map "G" #'end-of-buffer)
     (define-key evil-emacs-state-map "/" #'evil-ex-search-forward)
+    (define-key evil-emacs-state-map "n" #'evil-ex-search-next)
+    (define-key evil-emacs-state-map "N" #'evil-ex-search-previous)
     (define-key evil-emacs-state-map (kbd "C-u") #'scroll-up-command)
     (define-key evil-emacs-state-map (kbd "C-d") #'scroll-down-command)))
 
@@ -113,7 +116,11 @@ Elfeed-tube takes advantage of mpv to play YouTube videos from the RSS feed
 #+begin_src emacs-lisp
 ;; Fix for C-u in Normal mode to scroll like Vim
 (setq evil-want-C-u-scroll t)
-
+(setq evil-want-integration t) ;; This is optional since it's already set to t by default.
+(setq evil-want-keybinding nil)
+(require 'evil)
+(when (require 'evil-collection nil t)
+  (evil-collection-init))
 (use-package evil
   :defer 0
   :config
@@ -140,3 +147,12 @@ Elfeed-tube takes advantage of mpv to play YouTube videos from the RSS feed
         enable-recursive-minibuffers t))
 #+end_src
 
+* WINDOW NAVIGATION
+Remapping some commands for easier window navigation
+#+begin_src emacs-lisp
+(with-eval-after-load 'evil
+  (define-key evil-normal-state-map (kbd "C-<left>") #'evil-window-left)
+  (define-key evil-normal-state-map (kbd "C-<up>") #'evil-window-up)
+  (define-key evil-normal-state-map (kbd "C-<down>") #'evil-window-down)
+  (define-key evil-normal-state-map (kbd "C-<right>") #'evil-window-right))
+#+end_src

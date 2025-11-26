@@ -104,7 +104,8 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    '(auctex beacon elfeed-goodies elfeed-org elfeed-tube elfeed-webkit
-	    evil help-find-org-mode ivy pdf-tools zenburn-theme)))
+	    evil evil-collection help-find-org-mode ivy pdf-tools
+	    zenburn-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
