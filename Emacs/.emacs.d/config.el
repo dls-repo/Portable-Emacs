@@ -19,7 +19,74 @@
   :config
   (beacon-mode 1))
 
+(custom-set-variables
+ '(package-selected-packages '(beacon evil ivy)))
+(custom-set-faces)
+
+;; ================================
+;; Modeline color changes
+;; ================================
+
+(defvar my/modeline-modified-color "#1d847c")
+(defvar my/modeline-saved-color    "#7b7067")
+(defvar my/modeline-default-color  (face-background 'mode-line))
+
+(defun my/update-modeline-color ()
+  "Change the mode line color depending on buffer state."
+  (let* ((bg (cond
+              ((minibufferp) my/modeline-default-color)
+              (buffer-read-only my/modeline-saved-color)
+              ((buffer-modified-p) my/modeline-modified-color)
+              (t my/modeline-default-color))))
+    (set-face-background 'mode-line bg)))
+
+(add-hook 'post-command-hook #'my/update-modeline-color)
+
 (display-time-mode 1)
+
+;; Make sure elfeed is installed and loaded
+(use-package elfeed
+  :ensure t)
+
+;; Elfeed goodies for better UX
+(use-package elfeed-goodies
+  :ensure t
+  :after elfeed
+  :config
+  (elfeed-goodies/setup)
+  (setq elfeed-goodies/log-window-size 0.5))
+
+;; Elfeed-tube for YouTube RSS feeds
+(use-package elfeed-tube
+  :ensure t
+  :after elfeed
+  :config
+  ;; Path to your org file relative to .emacs.d
+  (setq elfeed-tube-org-file
+        (expand-file-name "org/elfeed.org" user-emacs-directory))
+  ;; Initialize elfeed-tube
+  (elfeed-tube-setup)
+  ;; Optional: auto-update Elfeed when opening search buffer
+  (add-hook 'elfeed-search-mode-hook 'elfeed-update))
+
+;; --- Evil-mode compatibility for Elfeed ---
+
+(with-eval-after-load 'evil
+  (with-eval-after-load 'elfeed-search
+    ;; Use normal Evil everywhere, but fix RET and q
+    (evil-set-initial-state 'elfeed-show-mode 'emacs)
+    (evil-set-initial-state 'elfeed-search-mode 'emacs)
+    (define-key evil-emacs-state-map "h" #'backward-char)
+    (define-key evil-emacs-state-map "l" #'forward-char)
+    (define-key evil-emacs-state-map "j" #'next-line)
+    (define-key evil-emacs-state-map "k" #'previous-line)
+    (define-key evil-emacs-state-map "gg" #'beginning-of-buffer)
+    (define-key evil-emacs-state-map "G" #'end-of-buffer)
+    (define-key evil-emacs-state-map "/" #'evil-ex-search-forward)
+    (define-key evil-emacs-state-map "n" #'evil-ex-search-next)
+    (define-key evil-emacs-state-map "N" #'evil-ex-search-previous)
+    (define-key evil-emacs-state-map (kbd "C-u") #'scroll-up-command)
+    (define-key evil-emacs-state-map (kbd "C-d") #'scroll-down-command)))
 
 ;; Fix for C-u in Normal mode to scroll like Vim
 (setq evil-want-C-u-scroll t)
@@ -32,16 +99,12 @@
 ;; Optional: make ESC quit prompts everywhere
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
+(message "Git executable: %s" (executable-find "git"))
+(message "Git version:\n%s" (shell-command-to-string "git --version"))
+
 (use-package ivy
   :defer 0
   :config
   (ivy-mode 1)
   (setq ivy-use-virtual-buffers t
         enable-recursive-minibuffers t))
-
-(message "Git executable: %s" (executable-find "git"))
-(message "Git version:\n%s" (shell-command-to-string "git --version"))
-
-(custom-set-variables
- '(package-selected-packages '(beacon evil ivy)))
-(custom-set-faces)

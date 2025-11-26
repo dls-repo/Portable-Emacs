@@ -73,3 +73,17 @@
 2025-11-19 22:24:32,430-0800 INFO  latex - setting output directory: d:\Emacs\.emacs.d\tmp\latex
 2025-11-19 22:24:32,431-0800 INFO  latex - setting aux directory: d:\Emacs\.emacs.d\tmp\latex
 2025-11-19 22:24:32,601-0800 INFO  latex - this process (9248) finishes with exit code 0
+2025-11-23 22:46:19,747-0800 INFO  latex - this process (4496) started by cmdproxy in directory d:\Emacs with command line: d:/miktex-portable/texmfs/install/miktex/bin/x64/latex.exe -interaction nonstopmode -output-directory .emacs.d/tmp/latex/ .emacs.d/tmp/latex/orgtexlyEOX0.tex
+2025-11-23 22:46:19,750-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-23 22:46:19,753-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-23 22:46:19,781-0800 INFO  latex - allowing known shell commands
+2025-11-23 22:46:19,791-0800 INFO  latex - setting output directory: d:\Emacs\.emacs.d\tmp\latex
+2025-11-23 22:46:19,792-0800 INFO  latex - setting aux directory: d:\Emacs\.emacs.d\tmp\latex
+2025-11-23 22:46:20,378-0800 INFO  latex - this process (4496) finishes with exit code 0
+2025-11-23 22:47:20,191-0800 INFO  latex - this process (21860) started by cmdproxy in directory d:\Emacs with command line: d:/miktex-portable/texmfs/install/miktex/bin/x64/latex.exe -interaction nonstopmode -output-directory .emacs.d/tmp/latex/ .emacs.d/tmp/latex/orgtexmMqUdp.tex
+2025-11-23 22:47:20,191-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-23 22:47:20,192-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-23 22:47:20,193-0800 INFO  latex - allowing known shell commands
+2025-11-23 22:47:20,200-0800 INFO  latex - setting output directory: d:\Emacs\.emacs.d\tmp\latex
+2025-11-23 22:47:20,200-0800 INFO  latex - setting aux directory: d:\Emacs\.emacs.d\tmp\latex
+2025-11-23 22:47:20,363-0800 INFO  latex - this process (21860) finishes with exit code 0

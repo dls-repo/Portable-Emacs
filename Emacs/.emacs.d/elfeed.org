@@ -1,0 +1,37 @@
+#+title: Elfeed
+
+* Feeds :elfeed:
+** electronics :electronics:youtube:
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCLaXgfNlVxY149shiA1pykQ][Northridgefix]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCl2mFZoRqjw_ELax4Yisf6w][Louis Rossmann]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA][Ben Eater]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UC2YkJ2iPMuUVGyxbt1DcxQQ][Nanofix]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCwffSP9kO8pMZVr1Ugqvbzw][HTX Studio]]
+** economics :economics:youtube:
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCdBXOyqr8cDshsp7kcKDAkg][Big A]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCFCEuCsyWP0YkP3CZ3Mr01Q][The Plain Bagel]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCwVevVbti5Uuxj6Mkl5NHRA][Lemonade Stand]]
+** linux :linux:youtube:
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCR4W7Mq0HD8JoW9KBRm0mZg][Immolo]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA][Mental Outlaw]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UC1tV5SjRyejRGeHAaMGYSsQ][Joshua Blais]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA][Luke Smith]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCwHwDuNd9lCdA7chyyquDXw][Bread on Penguins]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg][DistroTube]]
+** politics :politics:youtube:
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCqq5iqLTPwveEF2fpG2OzyA][Mentiswave]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCTf0py7ryuSldOsDm4abSsg][LiquidZulu]]
+** techBlogs :tech:blogs:
+*** [[https://hackaday.com/blog/feed/][Hackaday]]
+*** [[https://joshblais.com/index.xml][Blog of Josh Blais]]
+** politicsBlogs :politics:blogs:
+** edutainment :edutainment:youtube:
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UClyGlKOhDUooPJFy4v_mqPg][DougDoug]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCHL9bfHTxCMi-7vfxQ-AYtg][Abroad in Japan]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCOT2iLov0V7Re7ku_3UBtcQ][Hank Green]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCGaVdbSav8xWuFWTadK6loA][vlogbrothers]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCZcBeMQLxvjhsW3PEYXuiAA][Memeable Data]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw][3blue1brown]]
+** lifestyle :lifestyle:youtube:
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UC-ufRLYrXxrIEApGn9VG5pQ][Reject Convenience]]
+*** [[https://www.youtube.com/feeds/videos.xml?channel_id=UCshObcm-nLhbu8MY50EZ5Ng][Benn Jordan]]

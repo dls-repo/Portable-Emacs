@@ -55,3 +55,9 @@
 2025-11-19 22:24:32,929-0800 INFO  dvisvgm - this process (20200) started by cmdproxy in directory d:\Emacs with command line: d:/miktex-portable/texmfs/install/miktex/bin/x64/dvisvgm.exe .emacs.d/tmp/latex/orgtex7hRckj.dvi -n -b min -o d:/Emacs/.emacs.d/tmp/latex/orgtex7hRckj.svg
 2025-11-19 22:24:32,929-0800 INFO  dvisvgm - running on Windows 10.0.26200
 2025-11-19 22:24:33,023-0800 INFO  dvisvgm - this process (20200) finishes with exit code 0
+2025-11-23 22:46:20,782-0800 INFO  dvisvgm - this process (15920) started by cmdproxy in directory d:\Emacs with command line: d:/miktex-portable/texmfs/install/miktex/bin/x64/dvisvgm.exe .emacs.d/tmp/latex/orgtexlyEOX0.dvi -n -b min -o d:/Emacs/.emacs.d/tmp/latex/orgtexlyEOX0.svg
+2025-11-23 22:46:20,785-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-23 22:46:21,197-0800 INFO  dvisvgm - this process (15920) finishes with exit code 0
+2025-11-23 22:47:20,686-0800 INFO  dvisvgm - this process (7276) started by cmdproxy in directory d:\Emacs with command line: d:/miktex-portable/texmfs/install/miktex/bin/x64/dvisvgm.exe .emacs.d/tmp/latex/orgtexmMqUdp.dvi -n -b min -o d:/Emacs/.emacs.d/tmp/latex/orgtexmMqUdp.svg
+2025-11-23 22:47:20,689-0800 INFO  dvisvgm - running on Windows 10.0.26200
+2025-11-23 22:47:20,826-0800 INFO  dvisvgm - this process (7276) finishes with exit code 0
