@@ -1,0 +1,1 @@
+You will need to download, extract, and place mpv.exe into the mpv-x86 folder from the mpv site as it was too large to track on github
