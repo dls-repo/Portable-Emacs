@@ -1,0 +1,27 @@
+2025-11-29 22:15:28,671-0800 INFO  dvipng - this process (22940) started by cmdproxy in directory c:\Users\mod with command line: dvipng -D 83.0 -T tight -o d:/Emacs/.emacs.d/tmp/latex/orgtexwpHFSC.png d:/Emacs/.emacs.d/tmp/latex/orgtexwpHFSC.dvi
+2025-11-29 22:15:28,671-0800 INFO  dvipng - running on Windows 10.0.26200
+2025-11-29 22:15:28,677-0800 INFO  dvipng - installing package zhmetrics triggered by fonts/map/ttf2pk\ttfonts.map
+2025-11-29 22:15:28,679-0800 INFO  dvipng.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2025-11-29 22:15:29,302-0800 INFO  dvipng - mpm: starting package maintenance...
+2025-11-29 22:15:29,302-0800 INFO  dvipng - mpm: installation directory: d:\miktex-portable\texmfs\install
+2025-11-29 22:15:29,302-0800 INFO  dvipng - mpm: package repository: https://mirrors.rit.edu/CTAN/systems/win32/miktex/tm/packages/
+2025-11-29 22:15:30,207-0800 WARN  dvipng.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2025-11-29 22:15:30,207-0800 WARN  dvipng.packagemanager - dependency problem: sttools is required by _miktex-latex-packages
+2025-11-29 22:15:30,207-0800 WARN  dvipng.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2025-11-29 22:15:30,208-0800 WARN  dvipng.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2025-11-29 22:15:30,561-0800 INFO  dvipng - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-29 22:15:30,562-0800 INFO  dvipng - mpm: going to download 35746 bytes
+2025-11-29 22:15:30,562-0800 INFO  dvipng - mpm: going to install 4940 file(s) (1 package(s))
+2025-11-29 22:15:31,188-0800 INFO  dvipng.packagemanager - installing package zhmetrics
+2025-11-29 22:15:31,189-0800 INFO  dvipng - mpm: downloading https://mirrors.rit.edu/CTAN/systems/win32/miktex/tm/packages/zhmetrics.tar.lzma...
+2025-11-29 22:15:31,190-0800 INFO  dvipng.packagemanager - going to download https://mirrors.rit.edu/CTAN/systems/win32/miktex/tm/packages/zhmetrics.tar.lzma
+2025-11-29 22:15:31,795-0800 INFO  dvipng - mpm: 0.04 MB, 0.47 Mbit/s
+2025-11-29 22:15:31,821-0800 INFO  dvipng - mpm: extracting files from zhmetrics.tar.lzma...
+2025-11-29 22:18:20,075-0800 INFO  dvipng.core - start process: miktex fontmaps configure
+2025-11-29 22:18:21,462-0800 INFO  dvipng - this process (22940) finishes with exit code 0
+2025-11-30 00:23:10,814-0800 INFO  dvipng - this process (9176) started by cmdproxy in directory d:\Emacs with command line: dvipng -D 83.0 -T tight -o d:/Emacs/.emacs.d/tmp/latex/orgtexBndglI.png .emacs.d/tmp/latex/orgtexBndglI.dvi
+2025-11-30 00:23:10,816-0800 INFO  dvipng - running on Windows 10.0.26200
+2025-11-30 00:23:10,854-0800 INFO  dvipng - this process (9176) finishes with exit code 0
+2025-11-30 00:23:38,480-0800 INFO  dvipng - this process (25440) started by cmdproxy in directory c:\Users\mod with command line: dvipng -D 83.0 -T tight -o d:/Emacs/.emacs.d/tmp/latex/orgtexkGkeUh.png d:/Emacs/.emacs.d/tmp/latex/orgtexkGkeUh.dvi
+2025-11-30 00:23:38,482-0800 INFO  dvipng - running on Windows 10.0.26200
+2025-11-30 00:23:38,503-0800 INFO  dvipng - this process (25440) finishes with exit code 0

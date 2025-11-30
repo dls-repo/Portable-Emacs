@@ -57,20 +57,20 @@
   (setq temporary-file-directory org-latex-preview-output-directory)
 
   ;; Setup dvisvgm process using full paths
-  (setq org-preview-latex-process-alist
+  (setq org-latex-preview-process-alist
         `((dvisvgm
-           :programs (,latex-exe ,dvisvgm-exe) ;; use full paths!
+           :programs ("latex" "dvisvgm")
            :description "dvi -> svg"
            :message "Ensure LaTeX and dvisvgm are installed"
            :use-xcolor t
            :image-input-type "dvi"
            :image-output-type "svg"
            :image-size-adjust (1.0 . 1.0)
-           :latex-compiler ,(list (concat latex-exe " -interaction nonstopmode -output-directory %o %f"))
-           :image-converter ,(list (concat dvisvgm-exe " %f -n -b min -o %O")))))
+           :latex-compiler (,latex-exe "-interaction" "nonstopmode" "-output-directory" "%o" "%f")
+           :image-converter (,dvisvgm-exe "%f" "-n" "-b" "min" "-o" "%O"))))
 
   ;; Set default process
-  (setq org-preview-latex-default-process 'dvisvgm)
+  (setq org-latex-preview-default-process 'dvisvgm)
 
   ;; Automatically preview LaTeX on startup
   (setq org-startup-with-latex-preview t))
@@ -128,4 +128,3 @@
 (global-set-key (kbd "C-c C-x C-l") 'my/org-preview-toggle)
 
 (provide 'init)
-

@@ -16,21 +16,24 @@
 (load-theme 'zenburn t)
 
 ;; ----------------------
-;; 2. USB and MiKTeX paths (FIXED)
+;; 2. USB and MiKTeX paths
 ;; ----------------------
-;; Dynamically detect the USB root, assuming init.el is in Emacs/.emacs.d/
+;; Detect USB root, assuming init.el is in Emacs/.emacs.d/
 (defvar usb-root
   (file-name-directory
    (directory-file-name
     (expand-file-name "../../.." user-emacs-directory))))
-;; MiKTeX executables relative to USB root
+;; MiKTeX executables
 (defvar miktex-bin (expand-file-name "miktex-portable/texmfs/install/miktex/bin/x64" usb-root))
 (defvar latex-exe (expand-file-name "miktex-portable/texmfs/install/miktex/bin/x64/latex.exe" usb-root))
 (defvar dvisvgm-exe (expand-file-name "miktex-portable/texmfs/install/miktex/bin/x64/dvisvgm.exe" usb-root))
 
-;; Add MiKTeX bin to Emacs exec-path (optional)
+;; Add MiKTeX bin to exec-path
 (add-to-list 'exec-path miktex-bin)
 (setenv "PATH" (concat miktex-bin ";" (getenv "PATH")))
+
+;; Show mpv executable
+(defvar mpv-exe (expand-file-name "mpv-x86_64-gcc-20251124-git-8469605/mpv.exe" usb-root))
 
 ;; ----------------------
 ;; 3. Package system setup
@@ -53,19 +56,20 @@
           dir))
   (setq temporary-file-directory org-latex-preview-output-directory)
 
-  ;; Setup dvisvgm process using full paths
-  (setq org-preview-latex-process-alist
-        `((dvisvgm
-           :programs (,latex-exe ,dvisvgm-exe) ;; use full paths!
-           :description "dvi -> svg"
-           :message "Ensure LaTeX and dvisvgm are installed"
-           :use-xcolor t
-           :image-input-type "dvi"
-           :image-output-type "svg"
-           :image-size-adjust (1.0 . 1.0)
-           :latex-compiler ,(list (concat latex-exe " -interaction nonstopmode -output-directory %o %f"))
-           :image-converter ,(list (concat dvisvgm-exe " %f -n -b min -o %O")))))
 
+;; Setup dvisvgm process using full paths
+(setq org-preview-latex-process-alist
+      `((dvisvgm
+         :programs ("latex" "dvisvgm")
+         :description "dvi -> svg"
+         :message "Ensure LaTeX and dvisvgm are installed"
+         :use-xcolor t
+         :image-input-type "dvi"
+         :image-output-type "svg"
+         :image-size-adjust (1.0 . 1.0)
+         :latex-compiler (,latex-exe "-interaction" "nonstopmode" "-output-directory" "%o" "%f")
+         :image-converter (,dvisvgm-exe "%f" "-n" "-b" "min" "-o" "%O"))))
+  
   ;; Set default process
   (setq org-preview-latex-default-process 'dvisvgm)
 
@@ -98,23 +102,15 @@
 ;; 8. Custom variables & faces
 ;; ----------------------
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  '(package-selected-packages
    '(auctex beacon elfeed-goodies elfeed-org elfeed-tube elfeed-webkit
 	    emms evil evil-collection gptel help-find-org-mode ivy
 	    pdf-tools zenburn-theme)))
 (custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  )
 
 ;; ----------------------
-;; 9. Helper function to toggle previews
+;; 9. Helper functions for LaTeX previews
 ;; ----------------------
 (defun my/org-preview-toggle ()
   "Toggle LaTeX previews in Org-mode."
@@ -122,7 +118,16 @@
   (require 'org)
   (org-preview-latex-fragment))
 
+(defun my/test-latex-preview ()
+  "Test LaTeX inline preview in the current Org buffer."
+  (interactive)
+  (require 'org)
+  ;; Clear existing previews
+  (org-clear-latex-preview)
+  ;; Preview the entire buffer
+  (org-preview-latex-fragment '(0 (point-max))))
+
 (global-set-key (kbd "C-c C-x C-l") 'my/org-preview-toggle)
+(global-set-key (kbd "C-c C-x C-t") 'my/test-latex-preview)
 
 (provide 'init)
-

@@ -190,3 +190,15 @@
 2025-11-19 21:13:27,729-0800 INFO  kpsewhich - this process (2648) started by emacs in directory d:\Emacs with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
 2025-11-19 21:13:27,730-0800 INFO  kpsewhich - running on Windows 10.0.26200
 2025-11-19 21:13:27,732-0800 INFO  kpsewhich - this process (2648) finishes with exit code 0
+2025-11-29 22:07:12,755-0800 INFO  kpsewhich - this process (15084) started by emacs in directory d:\Emacs\.emacs.d\tmp\latex with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --expand-path {.,..}
+2025-11-29 22:07:12,758-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-29 22:07:12,759-0800 INFO  kpsewhich - this process (15084) finishes with exit code 0
+2025-11-29 22:07:13,080-0800 INFO  kpsewhich - this process (4496) started by emacs in directory d:\Emacs\.emacs.d\tmp\latex with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $SYSTEXMF;$TEXMFLOCAL;$TEXMFMAIN;$TEXMFDIST
+2025-11-29 22:07:13,080-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-29 22:07:13,085-0800 INFO  kpsewhich - this process (4496) finishes with exit code 0
+2025-11-29 22:07:13,412-0800 INFO  kpsewhich - this process (14968) started by emacs in directory d:\Emacs\.emacs.d\tmp\latex with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME
+2025-11-29 22:07:13,414-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-29 22:07:13,416-0800 INFO  kpsewhich - this process (14968) finishes with exit code 0
+2025-11-29 22:07:13,755-0800 INFO  kpsewhich - this process (21332) started by emacs in directory d:\Emacs\.emacs.d\tmp\latex with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\kpsewhich.exe --progname latex --expand-path $TEXMFHOME;$TEXMFMAIN;$TEXMFLOCAL;$TEXMFDIST
+2025-11-29 22:07:13,757-0800 INFO  kpsewhich - running on Windows 10.0.26200
+2025-11-29 22:07:13,760-0800 INFO  kpsewhich - this process (21332) finishes with exit code 0

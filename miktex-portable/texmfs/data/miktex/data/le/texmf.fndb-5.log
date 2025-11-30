@@ -1,3 +1,5 @@
 -CACHEDIR.TAG;fontconfig/cache
 +2025-11-19-21-10-33.log;miktex/log/makefmt/latex;
 +latex.fmt;miktex/data/le/pdftex;
++2025-11-29-21-58-24.log;miktex/log/makefmt/pdflatex;
++pdflatex.fmt;miktex/data/le/pdftex;

@@ -1,0 +1,29 @@
+2025-11-29 22:10:48,256-0800 INFO  latexmk - this process (20292) started by cmdproxy in directory c:\Users\mod with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ marta.tex
+2025-11-29 22:10:48,256-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-11-29 22:10:48,304-0800 INFO  latexmk - installing package latexmk triggered by scripts/latexmk\latexmk.pl
+2025-11-29 22:10:48,321-0800 INFO  latexmk.packagemanager - going to download https://api2.miktex.org/hello
+2025-11-29 22:10:48,998-0800 INFO  latexmk.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2025-11-29 22:10:49,186-0800 INFO  latexmk - mpm: starting package maintenance...
+2025-11-29 22:10:49,186-0800 INFO  latexmk - mpm: installation directory: d:\miktex-portable\texmfs\install
+2025-11-29 22:10:49,186-0800 INFO  latexmk - mpm: package repository: https://mirror.clarkson.edu/ctan/systems/win32/miktex/tm/packages/
+2025-11-29 22:10:50,111-0800 WARN  latexmk.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2025-11-29 22:10:50,111-0800 WARN  latexmk.packagemanager - dependency problem: sttools is required by _miktex-latex-packages
+2025-11-29 22:10:50,111-0800 WARN  latexmk.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2025-11-29 22:10:50,113-0800 WARN  latexmk.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2025-11-29 22:10:50,163-0800 INFO  latexmk - mpm: visiting repository https://mirror.clarkson.edu/ctan/systems/win32/miktex/tm/packages/...
+2025-11-29 22:10:50,163-0800 INFO  latexmk - mpm: repository type: remote package repository
+2025-11-29 22:10:50,187-0800 INFO  latexmk - mpm: loading package repository manifest...
+2025-11-29 22:10:50,188-0800 INFO  latexmk - mpm: downloading https://mirror.clarkson.edu/ctan/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma...
+2025-11-29 22:10:50,189-0800 INFO  latexmk.packagemanager - going to download https://mirror.clarkson.edu/ctan/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma
+2025-11-29 22:10:51,067-0800 INFO  latexmk - mpm: 0.40 MB, 3.65 Mbit/s
+2025-11-29 22:10:51,505-0800 INFO  latexmk - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-29 22:10:51,505-0800 INFO  latexmk - mpm: going to download 124057 bytes
+2025-11-29 22:10:51,505-0800 INFO  latexmk - mpm: going to install 2 file(s) (1 package(s))
+2025-11-29 22:10:52,126-0800 INFO  latexmk.packagemanager - installing package latexmk
+2025-11-29 22:10:52,127-0800 INFO  latexmk - mpm: downloading https://mirror.clarkson.edu/ctan/systems/win32/miktex/tm/packages/latexmk.tar.lzma...
+2025-11-29 22:10:52,127-0800 INFO  latexmk.packagemanager - going to download https://mirror.clarkson.edu/ctan/systems/win32/miktex/tm/packages/latexmk.tar.lzma
+2025-11-29 22:10:52,424-0800 INFO  latexmk - mpm: 0.12 MB, 3.35 Mbit/s
+2025-11-29 22:10:52,435-0800 INFO  latexmk - mpm: extracting files from latexmk.tar.lzma...
+2025-11-29 22:11:11,251-0800 INFO  latexmk.core - start process: miktex fontmaps configure
+2025-11-29 22:11:13,853-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ marta.tex
+2025-11-29 22:13:41,410-0800 INFO  latexmk - this process (20292) finishes with exit code -1

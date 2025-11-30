@@ -10,3 +10,15 @@
 2025-11-19 21:10:45,260-0800 INFO  miktex-makefmt - this process (9380) finishes with exit code 0
 2025-11-19 21:10:45,261-0800 WARN  miktex-makefmt.core - still open: D:\miktex-portable\texmfs/config\tex\generic\config\pdftexconfig.tex
 2025-11-19 21:10:45,261-0800 WARN  miktex-makefmt.core - still open: D:\miktex-portable\texmfs\install\tex/generic/config\pdftexconfig.tex.in
+2025-11-29 21:58:24,369-0800 INFO  miktex-makefmt - this process (19948) started by miktex in directory c:\Users\mod with command line: miktex-makefmt.exe --engine=pdftex --dest-name=pdflatex --no-dump pdflatex.ini --engine-option=-tcx=cp227.tcx --enable-installer --miktex-disable-maintenance --miktex-disable-diagnose
+2025-11-29 21:58:24,370-0800 INFO  miktex-makefmt - running on Windows 10.0.26200
+2025-11-29 21:58:24,373-0800 INFO  makefmt - found input file: d:\miktex-portable\texmfs\install\tex\latex\tex-ini-files\pdflatex.ini
+2025-11-29 21:58:24,374-0800 INFO  makefmt - Creating the pdflatex format file...
+2025-11-29 21:58:25,860-0800 INFO  makefmt - Running miktex-pdftex.exe...
+2025-11-29 21:58:25,861-0800 INFO  makefmt - running: miktex-pdftex.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose --interaction=nonstopmode --initialize --halt-on-error --alias=pdflatex --job-name=pdflatex -tcx=cp227.tcx --enable-etex pdflatex.ini
+2025-11-29 21:58:25,861-0800 INFO  miktex-makefmt.core - start process: miktex-pdftex.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose --interaction=nonstopmode --initialize --halt-on-error --alias=pdflatex --job-name=pdflatex -tcx=cp227.tcx --enable-etex pdflatex.ini
+2025-11-29 21:58:37,257-0800 INFO  makefmt - Installing d:\miktex-portable\texmfs/data\miktex\log\makefmt\pdflatex\2025-11-29-21-58-24.log...
+2025-11-29 21:58:38,810-0800 INFO  makefmt - Installing d:\miktex-portable\texmfs/data\miktex/data/le/pdftex\pdflatex.fmt...
+2025-11-29 21:58:38,947-0800 INFO  miktex-makefmt - this process (19948) finishes with exit code 0
+2025-11-29 21:58:38,948-0800 WARN  miktex-makefmt.core - still open: d:\miktex-portable\texmfs/config\tex\generic\config\pdftexconfig.tex
+2025-11-29 21:58:38,948-0800 WARN  miktex-makefmt.core - still open: d:\miktex-portable\texmfs\install\tex/generic/config\pdftexconfig.tex.in

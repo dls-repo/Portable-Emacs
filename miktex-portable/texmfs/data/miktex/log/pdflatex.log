@@ -1,0 +1,163 @@
+2025-11-29 21:58:23,587-0800 INFO  pdflatex - this process (12344) started by cmdproxy in directory c:\Users\mod with command line: pdflatex -interaction nonstopmode -output-directory d:/Emacs/.emacs.d/tmp/latex/ d:/Emacs/.emacs.d/tmp/latex/orgtex1mEL3F.tex
+2025-11-29 21:58:23,587-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-29 21:58:23,588-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-29 21:58:23,592-0800 INFO  pdflatex - allowing known shell commands
+2025-11-29 21:58:23,598-0800 INFO  pdflatex - setting output directory: d:/Emacs\.emacs.d\tmp\latex
+2025-11-29 21:58:23,598-0800 INFO  pdflatex - setting aux directory: d:/Emacs\.emacs.d\tmp\latex
+2025-11-29 21:58:23,607-0800 INFO  pdflatex - going to create file: pdflatex.fmt
+2025-11-29 21:58:23,608-0800 INFO  pdflatex.core - start process: miktex --enable-installer formats build pdflatex --engine pdftex
+2025-11-29 21:58:39,415-0800 INFO  pdflatex - this process (12344) finishes with exit code 0
+2025-11-29 21:58:51,222-0800 INFO  pdflatex - this process (15056) started by cmdproxy in directory c:\Users\mod with command line: pdflatex -interaction nonstopmode -output-directory d:/Emacs/.emacs.d/tmp/latex/ d:/Emacs/.emacs.d/tmp/latex/orgtexOzF9qY.tex
+2025-11-29 21:58:51,222-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-29 21:58:51,223-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-29 21:58:51,225-0800 INFO  pdflatex - allowing known shell commands
+2025-11-29 21:58:51,231-0800 INFO  pdflatex - setting output directory: d:/Emacs\.emacs.d\tmp\latex
+2025-11-29 21:58:51,232-0800 INFO  pdflatex - setting aux directory: d:/Emacs\.emacs.d\tmp\latex
+2025-11-29 21:58:51,420-0800 INFO  pdflatex - this process (15056) finishes with exit code 0
+2025-11-29 21:59:49,059-0800 INFO  pdflatex - this process (20144) started by cmdproxy in directory d:\Emacs with command line: pdflatex -version
+2025-11-29 21:59:49,062-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-29 21:59:49,063-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-29 21:59:49,064-0800 INFO  pdflatex - allowing known shell commands
+2025-11-29 21:59:49,071-0800 INFO  pdflatex - this process (20144) finishes with exit code 0
+2025-11-29 22:11:15,568-0800 INFO  pdflatex - this process (23740) started by sh in directory C:\Users\mod with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder marta.tex
+2025-11-29 22:11:15,570-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-29 22:11:15,572-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-29 22:11:15,573-0800 INFO  pdflatex - allowing known shell commands
+2025-11-29 22:11:15,668-0800 INFO  pdflatex - installing package wrapfig triggered by tex/latex/wrapfig\wrapfig.sty
+2025-11-29 22:11:15,670-0800 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2025-11-29 22:11:16,223-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-29 22:11:16,223-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-29 22:11:16,223-0800 INFO  pdflatex - mpm: package repository: https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/
+2025-11-29 22:11:17,137-0800 WARN  pdflatex.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2025-11-29 22:11:17,137-0800 WARN  pdflatex.packagemanager - dependency problem: sttools is required by _miktex-latex-packages
+2025-11-29 22:11:17,137-0800 WARN  pdflatex.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2025-11-29 22:11:17,138-0800 WARN  pdflatex.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2025-11-29 22:11:17,491-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-29 22:11:17,491-0800 INFO  pdflatex - mpm: going to download 9608 bytes
+2025-11-29 22:11:17,491-0800 INFO  pdflatex - mpm: going to install 2 file(s) (1 package(s))
+2025-11-29 22:11:18,118-0800 INFO  pdflatex.packagemanager - installing package wrapfig
+2025-11-29 22:11:18,119-0800 INFO  pdflatex - mpm: downloading https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/wrapfig.tar.lzma...
+2025-11-29 22:11:18,119-0800 INFO  pdflatex.packagemanager - going to download https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/wrapfig.tar.lzma
+2025-11-29 22:11:18,702-0800 INFO  pdflatex - mpm: 0.01 MB, 0.13 Mbit/s
+2025-11-29 22:11:18,712-0800 INFO  pdflatex - mpm: extracting files from wrapfig.tar.lzma...
+2025-11-29 22:11:43,660-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-29 22:11:45,121-0800 INFO  pdflatex - installing package capt-of triggered by tex/latex/capt-of\capt-of.sty
+2025-11-29 22:11:45,122-0800 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/repositories/5a49807749bd5efd1004d1396fa669d8
+2025-11-29 22:11:45,657-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-29 22:11:45,658-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-29 22:11:45,658-0800 INFO  pdflatex - mpm: package repository: https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/
+2025-11-29 22:11:46,035-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-29 22:11:46,035-0800 INFO  pdflatex - mpm: going to download 77039 bytes
+2025-11-29 22:11:46,035-0800 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2025-11-29 22:11:46,696-0800 INFO  pdflatex.packagemanager - installing package capt-of
+2025-11-29 22:11:46,697-0800 INFO  pdflatex - mpm: downloading https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/capt-of.tar.lzma...
+2025-11-29 22:11:46,697-0800 INFO  pdflatex.packagemanager - going to download https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/capt-of.tar.lzma
+2025-11-29 22:11:47,110-0800 INFO  pdflatex - mpm: 0.08 MB, 1.50 Mbit/s
+2025-11-29 22:11:47,119-0800 INFO  pdflatex - mpm: extracting files from capt-of.tar.lzma...
+2025-11-29 22:11:55,447-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-29 22:11:56,708-0800 INFO  pdflatex - installing package kvsetkeys triggered by tex/latex/kvsetkeys\kvsetkeys.sty
+2025-11-29 22:11:56,708-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-29 22:11:56,708-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-29 22:11:56,708-0800 INFO  pdflatex - mpm: package repository: https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/
+2025-11-29 22:11:57,078-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-29 22:11:57,078-0800 INFO  pdflatex - mpm: going to download 3794 bytes
+2025-11-29 22:11:57,078-0800 INFO  pdflatex - mpm: going to install 2 file(s) (1 package(s))
+2025-11-29 22:11:57,719-0800 INFO  pdflatex.packagemanager - installing package kvsetkeys
+2025-11-29 22:11:57,720-0800 INFO  pdflatex - mpm: downloading https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/kvsetkeys.tar.lzma...
+2025-11-29 22:11:57,720-0800 INFO  pdflatex.packagemanager - going to download https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/kvsetkeys.tar.lzma
+2025-11-29 22:11:57,968-0800 INFO  pdflatex - mpm: 0.00 MB, 0.12 Mbit/s
+2025-11-29 22:11:57,977-0800 INFO  pdflatex - mpm: extracting files from kvsetkeys.tar.lzma...
+2025-11-29 22:12:08,568-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-29 22:12:09,857-0800 INFO  pdflatex - installing package kvdefinekeys triggered by tex/generic/kvdefinekeys\kvdefinekeys.sty
+2025-11-29 22:12:09,857-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-29 22:12:09,857-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-29 22:12:09,857-0800 INFO  pdflatex - mpm: package repository: https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/
+2025-11-29 22:12:10,187-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-29 22:12:10,187-0800 INFO  pdflatex - mpm: going to download 304244 bytes
+2025-11-29 22:12:10,187-0800 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2025-11-29 22:12:10,842-0800 INFO  pdflatex.packagemanager - installing package kvdefinekeys
+2025-11-29 22:12:10,843-0800 INFO  pdflatex - mpm: downloading https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/kvdefinekeys.tar.lzma...
+2025-11-29 22:12:10,843-0800 INFO  pdflatex.packagemanager - going to download https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/kvdefinekeys.tar.lzma
+2025-11-29 22:12:11,420-0800 INFO  pdflatex - mpm: 0.30 MB, 4.23 Mbit/s
+2025-11-29 22:12:11,431-0800 INFO  pdflatex - mpm: extracting files from kvdefinekeys.tar.lzma...
+2025-11-29 22:12:22,314-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-29 22:12:23,528-0800 INFO  pdflatex - installing package pdfescape triggered by tex/generic/pdfescape\pdfescape.sty
+2025-11-29 22:12:23,528-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-29 22:12:23,528-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-29 22:12:23,528-0800 INFO  pdflatex - mpm: package repository: https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/
+2025-11-29 22:12:23,880-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-29 22:12:23,880-0800 INFO  pdflatex - mpm: going to download 355594 bytes
+2025-11-29 22:12:23,880-0800 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2025-11-29 22:12:24,575-0800 INFO  pdflatex.packagemanager - installing package pdfescape
+2025-11-29 22:12:24,576-0800 INFO  pdflatex - mpm: downloading https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/pdfescape.tar.lzma...
+2025-11-29 22:12:24,576-0800 INFO  pdflatex.packagemanager - going to download https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/pdfescape.tar.lzma
+2025-11-29 22:12:25,268-0800 INFO  pdflatex - mpm: 0.36 MB, 4.12 Mbit/s
+2025-11-29 22:12:25,284-0800 INFO  pdflatex - mpm: extracting files from pdfescape.tar.lzma...
+2025-11-29 22:12:45,471-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-29 22:12:46,705-0800 INFO  pdflatex - installing package ltxcmds triggered by tex/generic/ltxcmds\ltxcmds.sty
+2025-11-29 22:12:46,706-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-29 22:12:46,706-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-29 22:12:46,706-0800 INFO  pdflatex - mpm: package repository: https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/
+2025-11-29 22:12:47,032-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-29 22:12:47,032-0800 INFO  pdflatex - mpm: going to download 4317 bytes
+2025-11-29 22:12:47,032-0800 INFO  pdflatex - mpm: going to install 2 file(s) (1 package(s))
+2025-11-29 22:12:47,651-0800 INFO  pdflatex.packagemanager - installing package ltxcmds
+2025-11-29 22:12:47,652-0800 INFO  pdflatex - mpm: downloading https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/ltxcmds.tar.lzma...
+2025-11-29 22:12:47,652-0800 INFO  pdflatex.packagemanager - going to download https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/ltxcmds.tar.lzma
+2025-11-29 22:12:47,920-0800 INFO  pdflatex - mpm: 0.00 MB, 0.13 Mbit/s
+2025-11-29 22:12:47,929-0800 INFO  pdflatex - mpm: extracting files from ltxcmds.tar.lzma...
+2025-11-29 22:13:00,971-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-29 22:13:02,297-0800 INFO  pdflatex - installing package infwarerr triggered by tex/generic/infwarerr\infwarerr.sty
+2025-11-29 22:13:02,297-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-29 22:13:02,297-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-29 22:13:02,298-0800 INFO  pdflatex - mpm: package repository: https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/
+2025-11-29 22:13:02,652-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-29 22:13:02,652-0800 INFO  pdflatex - mpm: going to download 293465 bytes
+2025-11-29 22:13:02,652-0800 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2025-11-29 22:13:03,298-0800 INFO  pdflatex.packagemanager - installing package infwarerr
+2025-11-29 22:13:03,298-0800 INFO  pdflatex - mpm: downloading https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/infwarerr.tar.lzma...
+2025-11-29 22:13:03,298-0800 INFO  pdflatex.packagemanager - going to download https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/infwarerr.tar.lzma
+2025-11-29 22:13:03,856-0800 INFO  pdflatex - mpm: 0.29 MB, 4.21 Mbit/s
+2025-11-29 22:13:03,867-0800 INFO  pdflatex - mpm: extracting files from infwarerr.tar.lzma...
+2025-11-29 22:13:24,127-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-29 22:13:25,351-0800 INFO  pdflatex - installing package hycolor triggered by tex/latex/hycolor\hycolor.sty
+2025-11-29 22:13:25,351-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-29 22:13:25,351-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-29 22:13:25,351-0800 INFO  pdflatex - mpm: package repository: https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/
+2025-11-29 22:13:25,686-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-29 22:13:25,687-0800 INFO  pdflatex - mpm: going to download 389104 bytes
+2025-11-29 22:13:25,687-0800 INFO  pdflatex - mpm: going to install 6 file(s) (1 package(s))
+2025-11-29 22:13:26,306-0800 INFO  pdflatex.packagemanager - installing package hycolor
+2025-11-29 22:13:26,307-0800 INFO  pdflatex - mpm: downloading https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/hycolor.tar.lzma...
+2025-11-29 22:13:26,307-0800 INFO  pdflatex.packagemanager - going to download https://mirrors.ibiblio.org/pub/mirrors/CTAN/systems/win32/miktex/tm/packages/hycolor.tar.lzma
+2025-11-29 22:13:26,973-0800 INFO  pdflatex - mpm: 0.39 MB, 4.68 Mbit/s
+2025-11-29 22:13:26,983-0800 INFO  pdflatex - mpm: extracting files from hycolor.tar.lzma...
+2025-11-29 22:13:40,254-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-29 22:13:41,311-0800 FATAL pdflatex.core - Invalid argument
+2025-11-29 22:13:41,311-0800 FATAL pdflatex.core - Function: flush
+2025-11-29 22:13:41,312-0800 FATAL pdflatex.core - Result: 22
+2025-11-29 22:13:41,312-0800 FATAL pdflatex.core - Data: <no data>
+2025-11-29 22:13:41,312-0800 FATAL pdflatex.core - Source: Libraries\MiKTeX\TeXAndFriends\include\miktex/C4P/C4P.h:504
+2025-11-29 22:13:41,314-0800 FATAL pdflatex - Invalid argument
+2025-11-29 22:13:41,314-0800 FATAL pdflatex - Info: 
+2025-11-29 22:13:41,314-0800 FATAL pdflatex - Source: Libraries\MiKTeX\TeXAndFriends\include\miktex/C4P/C4P.h
+2025-11-29 22:13:41,314-0800 FATAL pdflatex - Line: 504
+2025-11-29 22:13:41,314-0800 INFO  pdflatex - this process (23740) finishes with exit code 1
+2025-11-29 22:13:41,362-0800 WARN  pdflatex.core - still open: marta.log
+2025-11-29 22:13:41,362-0800 WARN  pdflatex.core - still open: marta.tex
+2025-11-29 22:13:41,362-0800 WARN  pdflatex.core - still open: D:\miktex-portable\texmfs\install\tex/latex/hyperref\hyperref.sty
+2025-11-29 22:13:41,362-0800 WARN  pdflatex.core - still open: D:\miktex-portable\texmfs\install\tex/latex/hycolor\hycolor.sty
+2025-11-29 22:22:45,956-0800 INFO  pdflatex - this process (16036) started by cmdproxy in directory d:\Emacs with command line: d:/miktex-portable/texmfs/install/miktex/bin/x64/pdflatex.exe -interaction=nonstopmode -output-directory=d:/Emacs/.emacs.d/tmp/test-latex d:/Emacs/.emacs.d/tmp/test-latex/test.tex
+2025-11-29 22:22:45,956-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-29 22:22:45,958-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-29 22:22:45,959-0800 INFO  pdflatex - allowing known shell commands
+2025-11-29 22:22:45,965-0800 INFO  pdflatex - setting output directory: d:/Emacs\.emacs.d\tmp\test-latex
+2025-11-29 22:22:45,966-0800 INFO  pdflatex - setting aux directory: d:/Emacs\.emacs.d\tmp\test-latex
+2025-11-29 22:22:46,185-0800 INFO  pdflatex - this process (16036) finishes with exit code 0
+2025-11-29 22:25:17,792-0800 INFO  pdflatex - this process (15500) started by cmdproxy in directory d:\Emacs with command line: d:/miktex-portable/texmfs/install/miktex/bin/x64/pdflatex.exe -interaction=nonstopmode -output-directory=c:/tmp/test-latex/ c:/tmp/test-latex/test.tex
+2025-11-29 22:25:17,794-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-29 22:25:17,795-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-29 22:25:17,797-0800 INFO  pdflatex - allowing known shell commands
+2025-11-29 22:25:17,803-0800 INFO  pdflatex - setting output directory: c:/tmp\test-latex
+2025-11-29 22:25:17,804-0800 INFO  pdflatex - setting aux directory: c:/tmp\test-latex
+2025-11-29 22:25:17,883-0800 INFO  pdflatex - this process (15500) finishes with exit code 0
