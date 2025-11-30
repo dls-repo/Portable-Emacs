@@ -81,7 +81,7 @@
       ;; Windows-friendly way to launch GUI MPV
       (start-process-shell-command
        "mpv" nil
-       (format "start \"\" \"%s\" \"%s\"" mpv-exe link)))))
+       (format "start \"\" \"%s\" --ytdl-format=\"bestvideo+bestaudio/best\" --cache=yes --cache-secs=300 \"%s\"" mpv-exe link)))))
 
 
 

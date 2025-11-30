@@ -108,14 +108,16 @@ NOTES:
 (setq emms-player-list '(emms-player-mpv))
 
 (defun my/elfeed-show-play-with-mpv ()
-  "Play the current Elfeed entry's video URL using mpv."
+  "Play the current Elfeed entry's video URL using mpv (Windows-friendly)."
   (interactive)
   (let ((link (elfeed-entry-link elfeed-show-entry)))
     (if (not link)
         (message "No video link found.")
       (message "Launching mpv: %s" link)
-      (start-process "mpv" nil "mpv" link))))
-      ;;(start-process "mpv" nil "mpv" "--hwdec=no" link)))) If hardware decoding is not working
+      ;; Windows-friendly way to launch GUI MPV
+      (start-process-shell-command
+       "mpv" nil
+       (format "start \"\" \"%s\" --cache=yes --cache-secs=60 \"%s\"" mpv-exe link)))))
 
 
 
