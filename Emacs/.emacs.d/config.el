@@ -69,6 +69,25 @@
   ;; Optional: auto-update Elfeed when opening search buffer
   (add-hook 'elfeed-search-mode-hook 'elfeed-update))
 
+(setq emms-player-list '(emms-player-mpv))
+
+(defun my/elfeed-show-play-with-mpv ()
+  "Play the current Elfeed entry's video URL using mpv (Windows-friendly)."
+  (interactive)
+  (let ((link (elfeed-entry-link elfeed-show-entry)))
+    (if (not link)
+        (message "No video link found.")
+      (message "Launching mpv: %s" link)
+      ;; Windows-friendly way to launch GUI MPV
+      (start-process-shell-command
+       "mpv" nil
+       (format "start \"\" \"%s\" \"%s\"" mpv-exe link)))))
+
+
+
+(with-eval-after-load 'elfeed
+  (global-set-key (kbd "C-c C-g") 'elfeed-show-play-with-mpv))
+
 ;; Fix for C-u in Normal mode to scroll like Vim
 (setq evil-want-C-u-scroll t)
 
@@ -90,12 +109,18 @@
 (message "Git executable: %s" (executable-find "git"))
 (message "Git version:\n%s" (shell-command-to-string "git --version"))
 
+(setq org-startup-with-inline-images t)
+
 (use-package ivy
   :defer 0
   :config
   (ivy-mode 1)
   (setq ivy-use-virtual-buffers t
         enable-recursive-minibuffers t))
+
+(with-eval-after-load 'org
+  (setq org-latex-pdf-process
+        '("latexmk -pdf -interaction=nonstopmode -output-directory=%o %f")))
 
 (with-eval-after-load 'evil
   (define-key evil-normal-state-map (kbd "C-<left>") #'evil-window-left)

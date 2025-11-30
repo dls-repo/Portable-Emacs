@@ -92,6 +92,39 @@ Elfeed-tube takes advantage of mpv to play YouTube videos from the RSS feed
 
 #+end_src
 
+* EMMS
+EMMS is the multi-media system for emacs. It can be used to create music or podcast playlists, but in my use-case, was included first and foremost to be a "front-end" for mpv in order to have a video experience contained inside emacs, such as when viewing YouTube videos from Elfeed.
+
+I have created a custom function to automtically load videos from Elfeed using SPC-v
+
+NOTES:
+- Install yt-dlp using wget on their github (may or may not be needed)
+  sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+
+- Remove "--hwdec=no" on bare-metal machines to get better quality
+
+
+#+begin_src emacs-lisp
+(setq emms-player-list '(emms-player-mpv))
+
+(defun my/elfeed-show-play-with-mpv ()
+  "Play the current Elfeed entry's video URL using mpv (Windows-friendly)."
+  (interactive)
+  (let ((link (elfeed-entry-link elfeed-show-entry)))
+    (if (not link)
+        (message "No video link found.")
+      (message "Launching mpv: %s" link)
+      ;; Windows-friendly way to launch GUI MPV
+      (start-process-shell-command
+       "mpv" nil
+       (format "start \"\" \"%s\" \"%s\"" mpv-exe link)))))
+
+
+
+(with-eval-after-load 'elfeed
+  (global-set-key (kbd "C-c C-g") 'elfeed-show-play-with-mpv))
+
+#+end_src
 
 
 * Evil Mode
@@ -121,6 +154,14 @@ Elfeed-tube takes advantage of mpv to play YouTube videos from the RSS feed
 (message "Git version:\n%s" (shell-command-to-string "git --version"))
 #+end_src
 
+* INLINE IMAGES
+Any notes taken in org mode can support inline images. Here we are enabling it. You can add the path in between brackets to embedd it like this:
+        [[./images/my-diagram.png]]
+
+#+begin_src emacs-lisp
+(setq org-startup-with-inline-images t)
+#+end_src
+
 
 * Ivy
 #+begin_src emacs-lisp
@@ -131,6 +172,15 @@ Elfeed-tube takes advantage of mpv to play YouTube videos from the RSS feed
   (setq ivy-use-virtual-buffers t
         enable-recursive-minibuffers t))
 #+end_src
+
+* LaTeX
+Adding explicit instruction to use latexmk -pdf in order to allow embedded images in an org document to be converted to a pdf
+#+begin_src emacs-lisp
+(with-eval-after-load 'org
+  (setq org-latex-pdf-process
+        '("latexmk -pdf -interaction=nonstopmode -output-directory=%o %f")))
+#+end_src
+
 
 * WINDOW NAVIGATION
 Remapping some commands for easier window navigation

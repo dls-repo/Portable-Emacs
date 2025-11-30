@@ -28,6 +28,9 @@
 (defvar latex-exe (expand-file-name "miktex-portable/texmfs/install/miktex/bin/x64/latex.exe" usb-root))
 (defvar dvisvgm-exe (expand-file-name "miktex-portable/texmfs/install/miktex/bin/x64/dvisvgm.exe" usb-root))
 
+;;Show mpv executable relative to USB root
+(defvar mpv-exe (expand-file-name "mpv-x86_64-gcc-20251124-git-8469605/mpv.exe" usb-root))
+
 ;; Add MiKTeX bin to Emacs exec-path (optional)
 (add-to-list 'exec-path miktex-bin)
 (setenv "PATH" (concat miktex-bin ";" (getenv "PATH")))
@@ -104,8 +107,8 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    '(auctex beacon elfeed-goodies elfeed-org elfeed-tube elfeed-webkit
-	    evil evil-collection help-find-org-mode ivy pdf-tools
-	    zenburn-theme)))
+	    emms evil evil-collection gptel help-find-org-mode ivy
+	    pdf-tools zenburn-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
