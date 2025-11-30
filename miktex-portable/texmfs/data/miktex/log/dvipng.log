@@ -25,3 +25,9 @@
 2025-11-30 00:23:38,480-0800 INFO  dvipng - this process (25440) started by cmdproxy in directory c:\Users\mod with command line: dvipng -D 83.0 -T tight -o d:/Emacs/.emacs.d/tmp/latex/orgtexkGkeUh.png d:/Emacs/.emacs.d/tmp/latex/orgtexkGkeUh.dvi
 2025-11-30 00:23:38,482-0800 INFO  dvipng - running on Windows 10.0.26200
 2025-11-30 00:23:38,503-0800 INFO  dvipng - this process (25440) finishes with exit code 0
+2025-11-30 00:39:48,190-0800 INFO  dvipng - this process (7856) started by cmdproxy in directory d:\Emacs with command line: dvipng -D 83.0 -T tight -o d:/Emacs/.emacs.d/tmp/latex/orgtexUx5NJd.png .emacs.d/tmp/latex/orgtexUx5NJd.dvi
+2025-11-30 00:39:48,192-0800 INFO  dvipng - running on Windows 10.0.26200
+2025-11-30 00:39:48,213-0800 INFO  dvipng - this process (7856) finishes with exit code 0
+2025-11-30 00:40:48,863-0800 INFO  dvipng - this process (20720) started by cmdproxy in directory c:\Users\mod with command line: dvipng -D 83.0 -T tight -o d:/Emacs/.emacs.d/tmp/latex/orgtexZDWHYN.png d:/Emacs/.emacs.d/tmp/latex/orgtexZDWHYN.dvi
+2025-11-30 00:40:48,866-0800 INFO  dvipng - running on Windows 10.0.26200
+2025-11-30 00:40:48,881-0800 INFO  dvipng - this process (20720) finishes with exit code 0

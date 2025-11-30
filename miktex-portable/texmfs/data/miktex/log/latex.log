@@ -283,3 +283,17 @@
 2025-11-30 00:23:37,886-0800 INFO  latex - setting output directory: d:/Emacs\.emacs.d\tmp\latex
 2025-11-30 00:23:37,886-0800 INFO  latex - setting aux directory: d:/Emacs\.emacs.d\tmp\latex
 2025-11-30 00:23:38,060-0800 INFO  latex - this process (8548) finishes with exit code 0
+2025-11-30 00:39:47,585-0800 INFO  latex - this process (22940) started by cmdproxy in directory d:\Emacs with command line: latex -interaction nonstopmode -output-directory .emacs.d/tmp/latex/ .emacs.d/tmp/latex/orgtexUx5NJd.tex
+2025-11-30 00:39:47,585-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-30 00:39:47,586-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 00:39:47,588-0800 INFO  latex - allowing known shell commands
+2025-11-30 00:39:47,594-0800 INFO  latex - setting output directory: d:\Emacs\.emacs.d\tmp\latex
+2025-11-30 00:39:47,594-0800 INFO  latex - setting aux directory: d:\Emacs\.emacs.d\tmp\latex
+2025-11-30 00:39:47,861-0800 INFO  latex - this process (22940) finishes with exit code 0
+2025-11-30 00:40:48,359-0800 INFO  latex - this process (23704) started by cmdproxy in directory c:\Users\mod with command line: latex -interaction nonstopmode -output-directory d:/Emacs/.emacs.d/tmp/latex/ d:/Emacs/.emacs.d/tmp/latex/orgtexZDWHYN.tex
+2025-11-30 00:40:48,359-0800 INFO  latex - running on Windows 10.0.26200
+2025-11-30 00:40:48,360-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 00:40:48,362-0800 INFO  latex - allowing known shell commands
+2025-11-30 00:40:48,368-0800 INFO  latex - setting output directory: d:/Emacs\.emacs.d\tmp\latex
+2025-11-30 00:40:48,368-0800 INFO  latex - setting aux directory: d:/Emacs\.emacs.d\tmp\latex
+2025-11-30 00:40:48,541-0800 INFO  latex - this process (23704) finishes with exit code 0
