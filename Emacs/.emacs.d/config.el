@@ -122,6 +122,13 @@
   (setq org-latex-pdf-process
         '("latexmk -pdf -interaction=nonstopmode -output-directory=%o %f")))
 
+;; Enable Babel languages
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)
+   (emacs-lisp . t)
+   (C . t)))
+
 (with-eval-after-load 'evil
   (define-key evil-normal-state-map (kbd "C-<left>") #'evil-window-left)
   (define-key evil-normal-state-map (kbd "C-<up>") #'evil-window-up)

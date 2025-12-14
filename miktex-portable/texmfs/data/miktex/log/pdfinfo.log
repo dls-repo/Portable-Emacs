@@ -1,0 +1,84 @@
+2025-12-06 15:22:11,683-0800 INFO  pdfinfo - this process (27212) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 15:22:11,683-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 15:22:11,714-0800 INFO  pdfinfo - this process (27212) finishes with exit code 0
+2025-12-06 15:23:13,005-0800 INFO  pdfinfo - this process (24704) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 15:23:13,007-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 15:23:13,012-0800 INFO  pdfinfo - this process (24704) finishes with exit code 0
+2025-12-06 15:25:48,540-0800 INFO  pdfinfo - this process (20316) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 15:25:48,543-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 15:25:48,546-0800 INFO  pdfinfo - this process (20316) finishes with exit code 0
+2025-12-06 15:37:58,246-0800 INFO  pdfinfo - this process (23256) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 15:37:58,248-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 15:37:58,252-0800 INFO  pdfinfo - this process (23256) finishes with exit code 0
+2025-12-06 15:39:25,942-0800 INFO  pdfinfo - this process (24444) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 15:39:25,944-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 15:39:25,948-0800 INFO  pdfinfo - this process (24444) finishes with exit code 0
+2025-12-06 15:40:07,264-0800 INFO  pdfinfo - this process (21324) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 15:40:07,267-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 15:40:07,270-0800 INFO  pdfinfo - this process (21324) finishes with exit code 0
+2025-12-06 15:42:19,130-0800 INFO  pdfinfo - this process (28760) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 15:42:19,133-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 15:42:19,136-0800 INFO  pdfinfo - this process (28760) finishes with exit code 0
+2025-12-06 15:43:03,286-0800 INFO  pdfinfo - this process (26996) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 15:43:03,289-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 15:43:03,292-0800 INFO  pdfinfo - this process (26996) finishes with exit code 0
+2025-12-06 15:46:13,530-0800 INFO  pdfinfo - this process (26844) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 15:46:13,533-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 15:46:13,536-0800 INFO  pdfinfo - this process (26844) finishes with exit code 0
+2025-12-06 18:03:45,994-0800 INFO  pdfinfo - this process (30252) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 18:03:45,997-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 18:03:46,000-0800 INFO  pdfinfo - this process (30252) finishes with exit code 0
+2025-12-06 18:13:40,108-0800 INFO  pdfinfo - this process (29360) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 18:13:40,111-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 18:13:40,115-0800 INFO  pdfinfo - this process (29360) finishes with exit code 0
+2025-12-06 19:30:26,545-0800 INFO  pdfinfo - this process (28996) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 19:30:26,548-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 19:30:26,551-0800 INFO  pdfinfo - this process (28996) finishes with exit code 0
+2025-12-06 19:42:22,813-0800 INFO  pdfinfo - this process (13720) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 19:42:22,815-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 19:42:22,819-0800 INFO  pdfinfo - this process (13720) finishes with exit code 0
+2025-12-06 19:51:10,627-0800 INFO  pdfinfo - this process (6136) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 19:51:10,630-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 19:51:10,633-0800 INFO  pdfinfo - this process (6136) finishes with exit code 0
+2025-12-06 19:55:53,929-0800 INFO  pdfinfo - this process (8116) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 19:55:53,931-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 19:55:53,935-0800 INFO  pdfinfo - this process (8116) finishes with exit code 0
+2025-12-06 23:56:08,228-0800 INFO  pdfinfo - this process (30508) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-06 23:56:08,231-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-06 23:56:08,251-0800 INFO  pdfinfo - this process (30508) finishes with exit code 0
+2025-12-07 00:03:16,071-0800 INFO  pdfinfo - this process (2356) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-07 00:03:16,073-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-07 00:03:16,077-0800 INFO  pdfinfo - this process (2356) finishes with exit code 0
+2025-12-07 00:24:10,766-0800 INFO  pdfinfo - this process (27896) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-07 00:24:10,768-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-07 00:24:10,772-0800 INFO  pdfinfo - this process (27896) finishes with exit code 0
+2025-12-07 00:25:42,516-0800 INFO  pdfinfo - this process (9768) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-07 00:25:42,518-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-07 00:25:42,522-0800 INFO  pdfinfo - this process (9768) finishes with exit code 0
+2025-12-07 00:37:58,338-0800 INFO  pdfinfo - this process (23852) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-07 00:37:58,340-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-07 00:37:58,344-0800 INFO  pdfinfo - this process (23852) finishes with exit code 0
+2025-12-14 01:14:57,817-0800 INFO  pdfinfo - this process (6300) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-14 01:14:57,820-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-14 01:14:57,849-0800 INFO  pdfinfo - this process (6300) finishes with exit code 0
+2025-12-14 01:20:45,508-0800 INFO  pdfinfo - this process (13868) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-14 01:20:45,510-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-14 01:20:45,514-0800 INFO  pdfinfo - this process (13868) finishes with exit code 0
+2025-12-14 01:33:35,779-0800 INFO  pdfinfo - this process (9260) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-14 01:33:35,782-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-14 01:33:35,785-0800 INFO  pdfinfo - this process (9260) finishes with exit code 0
+2025-12-14 02:00:02,495-0800 INFO  pdfinfo - this process (22092) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-14 02:00:02,497-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-14 02:00:02,501-0800 INFO  pdfinfo - this process (22092) finishes with exit code 0
+2025-12-14 02:22:26,045-0800 INFO  pdfinfo - this process (17608) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-14 02:22:26,047-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-14 02:22:26,051-0800 INFO  pdfinfo - this process (17608) finishes with exit code 0
+2025-12-14 02:33:31,816-0800 INFO  pdfinfo - this process (1772) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-14 02:33:31,819-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-14 02:33:31,822-0800 INFO  pdfinfo - this process (1772) finishes with exit code 0
+2025-12-14 03:00:18,569-0800 INFO  pdfinfo - this process (22660) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-14 03:00:18,571-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-14 03:00:18,575-0800 INFO  pdfinfo - this process (22660) finishes with exit code 0
+2025-12-14 03:09:34,133-0800 INFO  pdfinfo - this process (13008) started by emacs in directory c:\Users\mod\folder with command line: d:\miktex-portable\texmfs\install\miktex\bin\x64\pdfinfo.exe c:/Users/mod/folder/ControlsReport.pdf
+2025-12-14 03:09:34,135-0800 INFO  pdfinfo - running on Windows 10.0.26200
+2025-12-14 03:09:34,138-0800 INFO  pdfinfo - this process (13008) finishes with exit code 0

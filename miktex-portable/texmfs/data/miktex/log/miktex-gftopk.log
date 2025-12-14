@@ -1,0 +1,54 @@
+2025-11-30 01:40:25,172-0800 INFO  miktex-gftopk - this process (23932) started by miktex-makepk in directory C:\Users\mod\AppData\Local\Temp\mik48064 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose tcrm1095.600gf tcrm1095.pk
+2025-11-30 01:40:25,172-0800 INFO  miktex-gftopk - running on Windows 10.0.26200
+2025-11-30 01:40:25,172-0800 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 25.4 Portable)
+2025-11-30 01:40:25,175-0800 INFO  miktex-gftopk - this process (23932) finishes with exit code 0
+2025-11-30 01:40:25,175-0800 WARN  miktex-gftopk.core - still open: tcrm1095.600gf
+2025-11-30 01:40:25,175-0800 WARN  miktex-gftopk.core - still open: tcrm1095.pk
+2025-11-30 01:40:26,903-0800 INFO  miktex-gftopk - this process (13448) started by miktex-makepk in directory C:\Users\mod\AppData\Local\Temp\mik57392 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose ecrm1095.600gf ecrm1095.pk
+2025-11-30 01:40:26,904-0800 INFO  miktex-gftopk - running on Windows 10.0.26200
+2025-11-30 01:40:26,904-0800 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 25.4 Portable)
+2025-11-30 01:40:26,909-0800 INFO  miktex-gftopk - this process (13448) finishes with exit code 0
+2025-11-30 01:40:26,910-0800 WARN  miktex-gftopk.core - still open: ecrm1095.pk
+2025-11-30 01:40:26,910-0800 WARN  miktex-gftopk.core - still open: ecrm1095.600gf
+2025-11-30 01:40:28,417-0800 INFO  miktex-gftopk - this process (9188) started by miktex-makepk in directory C:\Users\mod\AppData\Local\Temp\mik96492 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose ecbx1200.600gf ecbx1200.pk
+2025-11-30 01:40:28,418-0800 INFO  miktex-gftopk - running on Windows 10.0.26200
+2025-11-30 01:40:28,418-0800 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 25.4 Portable)
+2025-11-30 01:40:28,423-0800 INFO  miktex-gftopk - this process (9188) finishes with exit code 0
+2025-11-30 01:40:28,423-0800 WARN  miktex-gftopk.core - still open: ecbx1200.pk
+2025-11-30 01:40:28,423-0800 WARN  miktex-gftopk.core - still open: ecbx1200.600gf
+2025-11-30 01:40:29,889-0800 INFO  miktex-gftopk - this process (10024) started by miktex-makepk in directory C:\Users\mod\AppData\Local\Temp\mik93269 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose ecbx1440.600gf ecbx1440.pk
+2025-11-30 01:40:29,889-0800 INFO  miktex-gftopk - running on Windows 10.0.26200
+2025-11-30 01:40:29,889-0800 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 25.4 Portable)
+2025-11-30 01:40:29,897-0800 INFO  miktex-gftopk - this process (10024) finishes with exit code 0
+2025-11-30 01:40:29,898-0800 WARN  miktex-gftopk.core - still open: ecbx1440.600gf
+2025-11-30 01:40:29,898-0800 WARN  miktex-gftopk.core - still open: ecbx1440.pk
+2025-11-30 01:40:31,393-0800 INFO  miktex-gftopk - this process (2344) started by miktex-makepk in directory C:\Users\mod\AppData\Local\Temp\mik83270 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose ecrm1200.600gf ecrm1200.pk
+2025-11-30 01:40:31,393-0800 INFO  miktex-gftopk - running on Windows 10.0.26200
+2025-11-30 01:40:31,393-0800 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 25.4 Portable)
+2025-11-30 01:40:31,398-0800 INFO  miktex-gftopk - this process (2344) finishes with exit code 0
+2025-11-30 01:40:31,398-0800 WARN  miktex-gftopk.core - still open: ecrm1200.pk
+2025-11-30 01:40:31,398-0800 WARN  miktex-gftopk.core - still open: ecrm1200.600gf
+2025-11-30 01:40:32,868-0800 INFO  miktex-gftopk - this process (2504) started by miktex-makepk in directory C:\Users\mod\AppData\Local\Temp\mik35733 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose ecrm1728.600gf ecrm1728.pk
+2025-11-30 01:40:32,869-0800 INFO  miktex-gftopk - running on Windows 10.0.26200
+2025-11-30 01:40:32,869-0800 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 25.4 Portable)
+2025-11-30 01:40:32,876-0800 INFO  miktex-gftopk - this process (2504) finishes with exit code 0
+2025-11-30 01:40:32,876-0800 WARN  miktex-gftopk.core - still open: ecrm1728.600gf
+2025-11-30 01:40:32,876-0800 WARN  miktex-gftopk.core - still open: ecrm1728.pk
+2025-11-30 01:40:35,274-0800 INFO  miktex-gftopk - this process (8476) started by miktex-makepk in directory C:\Users\mod\AppData\Local\Temp\mik69184 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose ecbx1095.600gf ecbx1095.pk
+2025-11-30 01:40:35,275-0800 INFO  miktex-gftopk - running on Windows 10.0.26200
+2025-11-30 01:40:35,275-0800 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 25.4 Portable)
+2025-11-30 01:40:35,279-0800 INFO  miktex-gftopk - this process (8476) finishes with exit code 0
+2025-11-30 01:40:35,279-0800 WARN  miktex-gftopk.core - still open: ecbx1095.600gf
+2025-11-30 01:40:35,280-0800 WARN  miktex-gftopk.core - still open: ecbx1095.pk
+2025-12-06 15:39:19,050-0800 INFO  miktex-gftopk - this process (23184) started by miktex-makepk in directory C:\Users\mod\AppData\Local\Temp\mik18958 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose ecrm1000.600gf ecrm1000.pk
+2025-12-06 15:39:19,052-0800 INFO  miktex-gftopk - running on Windows 10.0.26200
+2025-12-06 15:39:19,052-0800 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 25.4 Portable)
+2025-12-06 15:39:19,058-0800 INFO  miktex-gftopk - this process (23184) finishes with exit code 0
+2025-12-06 15:39:19,058-0800 WARN  miktex-gftopk.core - still open: ecrm1000.600gf
+2025-12-06 15:39:19,058-0800 WARN  miktex-gftopk.core - still open: ecrm1000.pk
+2025-12-07 00:23:26,451-0800 INFO  miktex-gftopk - this process (26644) started by miktex-makepk in directory C:\Users\mod\AppData\Local\Temp\mik2693 with command line: miktex-gftopk.exe --miktex-enable-installer --miktex-disable-maintenance --miktex-disable-diagnose ecti1095.600gf ecti1095.pk
+2025-12-07 00:23:26,452-0800 INFO  miktex-gftopk - running on Windows 10.0.26200
+2025-12-07 00:23:26,452-0800 INFO  miktex-gftopk - this is MiKTeX-GFTOPK  (MiKTeX 25.4 Portable)
+2025-12-07 00:23:26,458-0800 INFO  miktex-gftopk - this process (26644) finishes with exit code 0
+2025-12-07 00:23:26,458-0800 WARN  miktex-gftopk.core - still open: ecti1095.pk
+2025-12-07 00:23:26,458-0800 WARN  miktex-gftopk.core - still open: ecti1095.600gf

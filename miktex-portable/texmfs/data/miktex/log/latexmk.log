@@ -27,3 +27,155 @@
 2025-11-29 22:11:11,251-0800 INFO  latexmk.core - start process: miktex fontmaps configure
 2025-11-29 22:11:13,853-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ marta.tex
 2025-11-29 22:13:41,410-0800 INFO  latexmk - this process (20292) finishes with exit code -1
+2025-11-30 01:26:56,686-0800 INFO  latexmk - this process (21460) started by cmdproxy in directory c:\Users\mod with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-11-30 01:26:56,689-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-11-30 01:26:56,706-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-11-30 01:27:44,515-0800 INFO  latexmk - this process (21460) finishes with exit code -1
+2025-11-30 01:34:53,667-0800 INFO  latexmk - this process (1672) started by cmdproxy in directory d:\ with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-11-30 01:34:53,667-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-11-30 01:34:53,675-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-11-30 01:40:35,842-0800 INFO  latexmk - this process (1672) finishes with exit code 0
+2025-11-30 17:20:28,108-0800 INFO  latexmk - this process (7756) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-11-30 17:20:28,111-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-11-30 17:20:28,129-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-11-30 17:20:32,047-0800 INFO  latexmk - this process (7756) finishes with exit code 0
+2025-11-30 17:26:19,912-0800 INFO  latexmk - this process (12400) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-11-30 17:26:19,915-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-11-30 17:26:19,923-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-11-30 17:26:21,840-0800 INFO  latexmk - this process (12400) finishes with exit code 0
+2025-11-30 17:27:19,813-0800 INFO  latexmk - this process (22772) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-11-30 17:27:19,815-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-11-30 17:27:19,823-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-11-30 17:27:22,579-0800 INFO  latexmk - this process (22772) finishes with exit code 0
+2025-12-06 15:08:23,140-0800 INFO  latexmk - this process (29308) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-12-06 15:08:23,143-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:08:23,190-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ outline.tex
+2025-12-06 15:08:28,124-0800 INFO  latexmk - this process (29308) finishes with exit code 0
+2025-12-06 15:20:53,705-0800 INFO  latexmk - this process (30472) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:20:53,707-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:20:53,715-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:20:55,646-0800 INFO  latexmk - this process (30472) finishes with exit code 0
+2025-12-06 15:22:00,949-0800 INFO  latexmk - this process (26052) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:22:00,951-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:22:00,959-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:22:02,817-0800 INFO  latexmk - this process (26052) finishes with exit code 0
+2025-12-06 15:23:02,744-0800 INFO  latexmk - this process (30336) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:23:02,747-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:23:02,755-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:23:04,671-0800 INFO  latexmk - this process (30336) finishes with exit code 0
+2025-12-06 15:25:41,282-0800 INFO  latexmk - this process (8344) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:25:41,284-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:25:41,292-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:25:43,201-0800 INFO  latexmk - this process (8344) finishes with exit code 0
+2025-12-06 15:37:49,802-0800 INFO  latexmk - this process (29820) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:37:49,804-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:37:49,812-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:37:51,698-0800 INFO  latexmk - this process (29820) finishes with exit code 0
+2025-12-06 15:39:16,599-0800 INFO  latexmk - this process (24408) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:39:16,602-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:39:16,610-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:39:20,448-0800 INFO  latexmk - this process (24408) finishes with exit code 0
+2025-12-06 15:39:59,852-0800 INFO  latexmk - this process (1908) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:39:59,854-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:39:59,862-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:40:01,772-0800 INFO  latexmk - this process (1908) finishes with exit code 0
+2025-12-06 15:42:12,851-0800 INFO  latexmk - this process (29932) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:42:12,854-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:42:12,862-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:42:14,758-0800 INFO  latexmk - this process (29932) finishes with exit code 0
+2025-12-06 15:42:53,779-0800 INFO  latexmk - this process (22300) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:42:53,781-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:42:53,789-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:42:55,690-0800 INFO  latexmk - this process (22300) finishes with exit code 0
+2025-12-06 15:46:05,335-0800 INFO  latexmk - this process (12744) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:46:05,337-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 15:46:05,345-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 15:46:07,274-0800 INFO  latexmk - this process (12744) finishes with exit code 0
+2025-12-06 17:41:53,009-0800 INFO  latexmk - this process (2952) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 17:41:53,011-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 17:41:53,019-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 17:41:54,917-0800 INFO  latexmk - this process (2952) finishes with exit code 0
+2025-12-06 18:03:29,691-0800 INFO  latexmk - this process (23460) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 18:03:29,694-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 18:03:29,701-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 18:03:31,750-0800 INFO  latexmk - this process (23460) finishes with exit code 0
+2025-12-06 18:13:31,238-0800 INFO  latexmk - this process (6680) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 18:13:31,241-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 18:13:31,248-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 18:13:33,219-0800 INFO  latexmk - this process (6680) finishes with exit code 0
+2025-12-06 19:30:15,429-0800 INFO  latexmk - this process (11660) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 19:30:15,432-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 19:30:15,450-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 19:30:19,316-0800 INFO  latexmk - this process (11660) finishes with exit code 0
+2025-12-06 19:42:14,391-0800 INFO  latexmk - this process (15104) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 19:42:14,394-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 19:42:14,401-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 19:42:16,414-0800 INFO  latexmk - this process (15104) finishes with exit code 0
+2025-12-06 19:50:59,401-0800 INFO  latexmk - this process (26448) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 19:50:59,403-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 19:50:59,411-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 19:51:01,503-0800 INFO  latexmk - this process (26448) finishes with exit code 0
+2025-12-06 19:55:45,850-0800 INFO  latexmk - this process (28268) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 19:55:45,852-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 19:55:45,860-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 19:55:47,903-0800 INFO  latexmk - this process (28268) finishes with exit code 0
+2025-12-06 23:55:46,800-0800 INFO  latexmk - this process (23656) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 23:55:46,804-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-06 23:55:46,850-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-06 23:55:49,759-0800 INFO  latexmk - this process (23656) finishes with exit code 12
+2025-12-07 00:02:47,504-0800 INFO  latexmk - this process (21604) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-07 00:02:47,507-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-07 00:02:47,515-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-07 00:02:48,700-0800 INFO  latexmk - this process (21604) finishes with exit code 12
+2025-12-07 00:23:23,926-0800 INFO  latexmk - this process (9292) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-07 00:23:23,929-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-07 00:23:23,937-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-07 00:23:27,965-0800 INFO  latexmk - this process (9292) finishes with exit code 0
+2025-12-07 00:23:57,180-0800 INFO  latexmk - this process (27924) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-07 00:23:57,183-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-07 00:23:57,192-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-07 00:23:59,297-0800 INFO  latexmk - this process (27924) finishes with exit code 0
+2025-12-07 00:25:32,142-0800 INFO  latexmk - this process (10776) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-07 00:25:32,144-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-07 00:25:32,152-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-07 00:25:34,254-0800 INFO  latexmk - this process (10776) finishes with exit code 0
+2025-12-07 00:36:18,175-0800 INFO  latexmk - this process (29388) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-07 00:36:18,178-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-07 00:36:18,186-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-07 00:36:20,348-0800 INFO  latexmk - this process (29388) finishes with exit code 0
+2025-12-14 00:52:57,388-0800 INFO  latexmk - this process (17348) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 00:52:57,391-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-14 00:52:57,439-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 00:53:01,445-0800 INFO  latexmk - this process (17348) finishes with exit code 0
+2025-12-14 01:14:49,757-0800 INFO  latexmk - this process (5720) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 01:14:49,759-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-14 01:14:49,766-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 01:14:52,024-0800 INFO  latexmk - this process (5720) finishes with exit code 0
+2025-12-14 01:20:36,903-0800 INFO  latexmk - this process (3136) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 01:20:36,906-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-14 01:20:36,913-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 01:20:39,508-0800 INFO  latexmk - this process (3136) finishes with exit code 0
+2025-12-14 01:32:35,041-0800 INFO  latexmk - this process (6896) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 01:32:35,044-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-14 01:32:35,051-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 01:33:21,608-0800 INFO  latexmk - this process (6896) finishes with exit code 0
+2025-12-14 01:59:54,149-0800 INFO  latexmk - this process (22700) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 01:59:54,152-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-14 01:59:54,159-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 01:59:57,061-0800 INFO  latexmk - this process (22700) finishes with exit code 0
+2025-12-14 02:22:16,705-0800 INFO  latexmk - this process (17348) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 02:22:16,707-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-14 02:22:16,714-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 02:22:19,614-0800 INFO  latexmk - this process (17348) finishes with exit code 0
+2025-12-14 02:33:19,695-0800 INFO  latexmk - this process (17132) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 02:33:19,697-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-14 02:33:19,704-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 02:33:22,602-0800 INFO  latexmk - this process (17132) finishes with exit code 0
+2025-12-14 03:00:09,467-0800 INFO  latexmk - this process (17112) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 03:00:09,469-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-14 03:00:09,477-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 03:00:12,537-0800 INFO  latexmk - this process (17112) finishes with exit code 0
+2025-12-14 03:09:25,580-0800 INFO  latexmk - this process (3036) started by cmdproxy in directory c:\Users\mod\folder with command line: latexmk -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 03:09:25,583-0800 INFO  latexmk - running on Windows 10.0.26200
+2025-12-14 03:09:25,590-0800 INFO  latexmk.core - start process: perl -Id:/miktex-portable/texmfs/install/scripts/latexmk/ d:/miktex-portable/texmfs/install/scripts/latexmk/latexmk.pl -pdf -interaction=nonstopmode -output-directory=./ ControlsReport.tex
+2025-12-14 03:09:28,599-0800 INFO  latexmk - this process (3036) finishes with exit code 0

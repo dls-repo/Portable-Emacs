@@ -16,7 +16,7 @@
 (load-theme 'zenburn t)
 
 ;; ----------------------
-;; 2. USB and MiKTeX paths (FIXED)
+;; 2. USB and MiKTeX paths
 ;; ----------------------
 ;; Dynamically detect the USB root, assuming init.el is in Emacs/.emacs.d/
 (defvar usb-root
@@ -30,6 +30,13 @@
 
 ;;Show mpv executable relative to USB root
 (defvar mpv-exe (expand-file-name "mpv-x86_64-gcc-20251124-git-8469605/mpv.exe" usb-root))
+
+;; Portable Python
+(defvar python-exe (expand-file-name "python-3.13.9-embed-amd64/python.exe" usb-root))
+
+;; Tell Emacs and Org Babel where Python is
+(setq python-shell-interpreter python-exe)
+(setq org-babel-python-command python-exe)
 
 ;; Add MiKTeX bin to Emacs exec-path (optional)
 (add-to-list 'exec-path miktex-bin)
@@ -75,6 +82,13 @@
   ;; Automatically preview LaTeX on startup
   (setq org-startup-with-latex-preview t))
 
+;; Enable Babel languages
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)
+   (emacs-lisp . t)))
+
+
 ;; ----------------------
 ;; 5. Paths to config.org and config.el
 ;; ----------------------
@@ -101,19 +115,11 @@
 ;; 8. Custom variables & faces
 ;; ----------------------
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  '(package-selected-packages
    '(auctex beacon elfeed-goodies elfeed-org elfeed-tube elfeed-webkit
 	    emms evil evil-collection gptel help-find-org-mode ivy
 	    pdf-tools zenburn-theme)))
 (custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  )
 
 ;; ----------------------
@@ -125,6 +131,7 @@
   (require 'org)
   (org-preview-latex-fragment))
 
+(global-visual-line-mode 1) ;;allow text-wrapping
 (global-set-key (kbd "C-c C-x C-l") 'my/org-preview-toggle)
 
 (provide 'init)

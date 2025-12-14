@@ -181,7 +181,16 @@ Adding explicit instruction to use latexmk -pdf in order to allow embedded image
         '("latexmk -pdf -interaction=nonstopmode -output-directory=%o %f")))
 #+end_src
 
-
+* Org-Babel
+Org-Babel allows for code blocks to be embedded in org documents
+#+begin_src emacs-lisp
+;; Enable Babel languages
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)
+   (emacs-lisp . t)
+   (C . t)))
+#+end_src
 * WINDOW NAVIGATION
 Remapping some commands for easier window navigation
 #+begin_src emacs-lisp

@@ -161,3 +161,556 @@
 2025-11-29 22:25:17,803-0800 INFO  pdflatex - setting output directory: c:/tmp\test-latex
 2025-11-29 22:25:17,804-0800 INFO  pdflatex - setting aux directory: c:/tmp\test-latex
 2025-11-29 22:25:17,883-0800 INFO  pdflatex - this process (15500) finishes with exit code 0
+2025-11-30 01:26:58,828-0800 INFO  pdflatex - this process (18980) started by sh in directory C:\Users\mod with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-11-30 01:26:58,831-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-30 01:26:58,832-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 01:26:58,833-0800 INFO  pdflatex - allowing known shell commands
+2025-11-30 01:26:59,157-0800 INFO  pdflatex - installing package refcount triggered by tex/latex/refcount\refcount.sty
+2025-11-30 01:26:59,159-0800 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/hello
+2025-11-30 01:26:59,794-0800 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2025-11-30 01:26:59,962-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-30 01:26:59,962-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-30 01:26:59,962-0800 INFO  pdflatex - mpm: package repository: https://tug.ctan.org/systems/win32/miktex/tm/packages/
+2025-11-30 01:27:00,894-0800 WARN  pdflatex.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2025-11-30 01:27:00,895-0800 WARN  pdflatex.packagemanager - dependency problem: sttools is required by _miktex-latex-packages
+2025-11-30 01:27:00,895-0800 WARN  pdflatex.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2025-11-30 01:27:00,896-0800 WARN  pdflatex.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2025-11-30 01:27:01,262-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-30 01:27:01,262-0800 INFO  pdflatex - mpm: going to download 336386 bytes
+2025-11-30 01:27:01,262-0800 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2025-11-30 01:27:01,886-0800 INFO  pdflatex.packagemanager - installing package refcount
+2025-11-30 01:27:01,886-0800 INFO  pdflatex - mpm: downloading https://tug.ctan.org/systems/win32/miktex/tm/packages/refcount.tar.lzma...
+2025-11-30 01:27:01,889-0800 INFO  pdflatex.packagemanager - going to download https://tug.ctan.org/systems/win32/miktex/tm/packages/refcount.tar.lzma
+2025-11-30 01:27:03,072-0800 INFO  pdflatex - mpm: 0.34 MB, 2.28 Mbit/s
+2025-11-30 01:27:03,082-0800 INFO  pdflatex - mpm: extracting files from refcount.tar.lzma...
+2025-11-30 01:27:42,744-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-30 01:27:44,426-0800 FATAL pdflatex.core - Invalid argument
+2025-11-30 01:27:44,426-0800 FATAL pdflatex.core - Function: flush
+2025-11-30 01:27:44,426-0800 FATAL pdflatex.core - Result: 22
+2025-11-30 01:27:44,426-0800 FATAL pdflatex.core - Data: <no data>
+2025-11-30 01:27:44,426-0800 FATAL pdflatex.core - Source: Libraries\MiKTeX\TeXAndFriends\include\miktex/C4P/C4P.h:504
+2025-11-30 01:27:44,426-0800 FATAL pdflatex - Invalid argument
+2025-11-30 01:27:44,426-0800 FATAL pdflatex - Info: 
+2025-11-30 01:27:44,426-0800 FATAL pdflatex - Source: Libraries\MiKTeX\TeXAndFriends\include\miktex/C4P/C4P.h
+2025-11-30 01:27:44,426-0800 FATAL pdflatex - Line: 504
+2025-11-30 01:27:44,427-0800 INFO  pdflatex - this process (18980) finishes with exit code 1
+2025-11-30 01:27:44,470-0800 WARN  pdflatex.core - still open: outline.log
+2025-11-30 01:27:44,470-0800 WARN  pdflatex.core - still open: outline.tex
+2025-11-30 01:27:44,470-0800 WARN  pdflatex.core - still open: D:\miktex-portable\texmfs\install\tex/latex/hyperref\nameref.sty
+2025-11-30 01:27:44,470-0800 WARN  pdflatex.core - still open: D:\miktex-portable\texmfs\install\tex/latex/hyperref\hyperref.sty
+2025-11-30 01:27:44,470-0800 WARN  pdflatex.core - still open: D:\miktex-portable\texmfs\install\tex/latex/refcount\refcount.sty
+2025-11-30 01:34:54,201-0800 INFO  pdflatex - this process (21956) started by sh in directory D:\ with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-11-30 01:34:54,201-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-30 01:34:54,203-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 01:34:54,204-0800 INFO  pdflatex - allowing known shell commands
+2025-11-30 01:34:54,449-0800 INFO  pdflatex - installing package gettitlestring triggered by tex/generic/gettitlestring\gettitlestring.sty
+2025-11-30 01:34:54,450-0800 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/hello
+2025-11-30 01:34:55,048-0800 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2025-11-30 01:34:55,218-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-30 01:34:55,218-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-30 01:34:55,218-0800 INFO  pdflatex - mpm: package repository: https://tug.ctan.org/systems/win32/miktex/tm/packages/
+2025-11-30 01:34:56,120-0800 WARN  pdflatex.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2025-11-30 01:34:56,120-0800 WARN  pdflatex.packagemanager - dependency problem: sttools is required by _miktex-latex-packages
+2025-11-30 01:34:56,120-0800 WARN  pdflatex.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2025-11-30 01:34:56,122-0800 WARN  pdflatex.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2025-11-30 01:34:56,548-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-30 01:34:56,548-0800 INFO  pdflatex - mpm: going to download 327428 bytes
+2025-11-30 01:34:56,548-0800 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2025-11-30 01:34:57,177-0800 INFO  pdflatex.packagemanager - installing package gettitlestring
+2025-11-30 01:34:57,178-0800 INFO  pdflatex - mpm: downloading https://tug.ctan.org/systems/win32/miktex/tm/packages/gettitlestring.tar.lzma...
+2025-11-30 01:34:57,180-0800 INFO  pdflatex.packagemanager - going to download https://tug.ctan.org/systems/win32/miktex/tm/packages/gettitlestring.tar.lzma
+2025-11-30 01:34:57,615-0800 INFO  pdflatex - mpm: 0.33 MB, 6.04 Mbit/s
+2025-11-30 01:34:57,626-0800 INFO  pdflatex - mpm: extracting files from gettitlestring.tar.lzma...
+2025-11-30 01:35:32,257-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-30 01:35:33,554-0800 INFO  pdflatex - installing package kvoptions triggered by tex/latex/kvoptions\kvoptions.sty
+2025-11-30 01:35:33,555-0800 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/repositories/306ea1b35825cb29420c738c4bd931ce
+2025-11-30 01:35:34,108-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-30 01:35:34,109-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-30 01:35:34,109-0800 INFO  pdflatex - mpm: package repository: https://tug.ctan.org/systems/win32/miktex/tm/packages/
+2025-11-30 01:35:34,447-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-30 01:35:34,447-0800 INFO  pdflatex - mpm: going to download 8196 bytes
+2025-11-30 01:35:34,447-0800 INFO  pdflatex - mpm: going to install 4 file(s) (1 package(s))
+2025-11-30 01:35:35,101-0800 INFO  pdflatex.packagemanager - installing package kvoptions
+2025-11-30 01:35:35,101-0800 INFO  pdflatex - mpm: downloading https://tug.ctan.org/systems/win32/miktex/tm/packages/kvoptions.tar.lzma...
+2025-11-30 01:35:35,101-0800 INFO  pdflatex.packagemanager - going to download https://tug.ctan.org/systems/win32/miktex/tm/packages/kvoptions.tar.lzma
+2025-11-30 01:35:35,225-0800 INFO  pdflatex - mpm: 0.01 MB, 0.53 Mbit/s
+2025-11-30 01:35:35,237-0800 INFO  pdflatex - mpm: extracting files from kvoptions.tar.lzma...
+2025-11-30 01:36:29,023-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-30 01:36:30,316-0800 INFO  pdflatex - installing package stringenc triggered by tex/generic/stringenc\stringenc.sty
+2025-11-30 01:36:30,316-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-30 01:36:30,316-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-30 01:36:30,316-0800 INFO  pdflatex - mpm: package repository: https://tug.ctan.org/systems/win32/miktex/tm/packages/
+2025-11-30 01:36:30,656-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-30 01:36:30,656-0800 INFO  pdflatex - mpm: going to download 719569 bytes
+2025-11-30 01:36:30,656-0800 INFO  pdflatex - mpm: going to install 45 file(s) (1 package(s))
+2025-11-30 01:36:31,313-0800 INFO  pdflatex.packagemanager - installing package stringenc
+2025-11-30 01:36:31,313-0800 INFO  pdflatex - mpm: downloading https://tug.ctan.org/systems/win32/miktex/tm/packages/stringenc.tar.lzma...
+2025-11-30 01:36:31,313-0800 INFO  pdflatex.packagemanager - going to download https://tug.ctan.org/systems/win32/miktex/tm/packages/stringenc.tar.lzma
+2025-11-30 01:36:31,902-0800 INFO  pdflatex - mpm: 0.72 MB, 9.81 Mbit/s
+2025-11-30 01:36:31,928-0800 INFO  pdflatex - mpm: extracting files from stringenc.tar.lzma...
+2025-11-30 01:36:53,081-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-30 01:36:54,361-0800 INFO  pdflatex - installing package intcalc triggered by tex/generic/intcalc\intcalc.sty
+2025-11-30 01:36:54,361-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-30 01:36:54,361-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-30 01:36:54,361-0800 INFO  pdflatex - mpm: package repository: https://tug.ctan.org/systems/win32/miktex/tm/packages/
+2025-11-30 01:36:54,697-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-30 01:36:54,697-0800 INFO  pdflatex - mpm: going to download 441613 bytes
+2025-11-30 01:36:54,697-0800 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2025-11-30 01:36:55,345-0800 INFO  pdflatex.packagemanager - installing package intcalc
+2025-11-30 01:36:55,346-0800 INFO  pdflatex - mpm: downloading https://tug.ctan.org/systems/win32/miktex/tm/packages/intcalc.tar.lzma...
+2025-11-30 01:36:55,346-0800 INFO  pdflatex.packagemanager - going to download https://tug.ctan.org/systems/win32/miktex/tm/packages/intcalc.tar.lzma
+2025-11-30 01:36:55,608-0800 INFO  pdflatex - mpm: 0.44 MB, 13.54 Mbit/s
+2025-11-30 01:36:55,618-0800 INFO  pdflatex - mpm: extracting files from intcalc.tar.lzma...
+2025-11-30 01:37:34,833-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-30 01:37:36,152-0800 INFO  pdflatex - installing package bitset triggered by tex/generic/bitset\bitset.sty
+2025-11-30 01:37:36,152-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-30 01:37:36,152-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-30 01:37:36,152-0800 INFO  pdflatex - mpm: package repository: https://tug.ctan.org/systems/win32/miktex/tm/packages/
+2025-11-30 01:37:36,590-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-30 01:37:36,590-0800 INFO  pdflatex - mpm: going to download 638837 bytes
+2025-11-30 01:37:36,590-0800 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2025-11-30 01:37:37,235-0800 INFO  pdflatex.packagemanager - installing package bitset
+2025-11-30 01:37:37,236-0800 INFO  pdflatex - mpm: downloading https://tug.ctan.org/systems/win32/miktex/tm/packages/bitset.tar.lzma...
+2025-11-30 01:37:37,236-0800 INFO  pdflatex.packagemanager - going to download https://tug.ctan.org/systems/win32/miktex/tm/packages/bitset.tar.lzma
+2025-11-30 01:37:37,605-0800 INFO  pdflatex - mpm: 0.64 MB, 13.93 Mbit/s
+2025-11-30 01:37:37,615-0800 INFO  pdflatex - mpm: extracting files from bitset.tar.lzma...
+2025-11-30 01:38:14,720-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-30 01:38:15,996-0800 INFO  pdflatex - installing package bigintcalc triggered by tex/generic/bigintcalc\bigintcalc.sty
+2025-11-30 01:38:15,996-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-30 01:38:15,996-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-30 01:38:15,996-0800 INFO  pdflatex - mpm: package repository: https://tug.ctan.org/systems/win32/miktex/tm/packages/
+2025-11-30 01:38:16,329-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-30 01:38:16,329-0800 INFO  pdflatex - mpm: going to download 478294 bytes
+2025-11-30 01:38:16,329-0800 INFO  pdflatex - mpm: going to install 5 file(s) (1 package(s))
+2025-11-30 01:38:16,976-0800 INFO  pdflatex.packagemanager - installing package bigintcalc
+2025-11-30 01:38:16,977-0800 INFO  pdflatex - mpm: downloading https://tug.ctan.org/systems/win32/miktex/tm/packages/bigintcalc.tar.lzma...
+2025-11-30 01:38:16,977-0800 INFO  pdflatex.packagemanager - going to download https://tug.ctan.org/systems/win32/miktex/tm/packages/bigintcalc.tar.lzma
+2025-11-30 01:38:17,280-0800 INFO  pdflatex - mpm: 0.48 MB, 12.67 Mbit/s
+2025-11-30 01:38:17,290-0800 INFO  pdflatex - mpm: extracting files from bigintcalc.tar.lzma...
+2025-11-30 01:38:51,901-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-30 01:38:53,211-0800 INFO  pdflatex - installing package rerunfilecheck triggered by tex/latex/rerunfilecheck\rerunfilecheck.sty
+2025-11-30 01:38:53,211-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-30 01:38:53,211-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-30 01:38:53,211-0800 INFO  pdflatex - mpm: package repository: https://tug.ctan.org/systems/win32/miktex/tm/packages/
+2025-11-30 01:38:53,542-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-30 01:38:53,542-0800 INFO  pdflatex - mpm: going to download 3336 bytes
+2025-11-30 01:38:53,542-0800 INFO  pdflatex - mpm: going to install 2 file(s) (1 package(s))
+2025-11-30 01:38:54,223-0800 INFO  pdflatex.packagemanager - installing package rerunfilecheck
+2025-11-30 01:38:54,223-0800 INFO  pdflatex - mpm: downloading https://tug.ctan.org/systems/win32/miktex/tm/packages/rerunfilecheck.tar.lzma...
+2025-11-30 01:38:54,223-0800 INFO  pdflatex.packagemanager - going to download https://tug.ctan.org/systems/win32/miktex/tm/packages/rerunfilecheck.tar.lzma
+2025-11-30 01:38:54,472-0800 INFO  pdflatex - mpm: 0.00 MB, 0.11 Mbit/s
+2025-11-30 01:38:54,480-0800 INFO  pdflatex - mpm: extracting files from rerunfilecheck.tar.lzma...
+2025-11-30 01:39:36,278-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-30 01:39:37,533-0800 INFO  pdflatex - installing package uniquecounter triggered by tex/generic/uniquecounter\uniquecounter.sty
+2025-11-30 01:39:37,533-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-11-30 01:39:37,533-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-11-30 01:39:37,533-0800 INFO  pdflatex - mpm: package repository: https://tug.ctan.org/systems/win32/miktex/tm/packages/
+2025-11-30 01:39:37,863-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-11-30 01:39:37,863-0800 INFO  pdflatex - mpm: going to download 298441 bytes
+2025-11-30 01:39:37,863-0800 INFO  pdflatex - mpm: going to install 6 file(s) (1 package(s))
+2025-11-30 01:39:38,513-0800 INFO  pdflatex.packagemanager - installing package uniquecounter
+2025-11-30 01:39:38,514-0800 INFO  pdflatex - mpm: downloading https://tug.ctan.org/systems/win32/miktex/tm/packages/uniquecounter.tar.lzma...
+2025-11-30 01:39:38,514-0800 INFO  pdflatex.packagemanager - going to download https://tug.ctan.org/systems/win32/miktex/tm/packages/uniquecounter.tar.lzma
+2025-11-30 01:39:38,743-0800 INFO  pdflatex - mpm: 0.30 MB, 10.47 Mbit/s
+2025-11-30 01:39:38,754-0800 INFO  pdflatex - mpm: extracting files from uniquecounter.tar.lzma...
+2025-11-30 01:40:18,371-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-11-30 01:40:22,340-0800 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose tcrm1095 600 600 1+0/600
+2025-11-30 01:40:25,480-0800 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose ecrm1095 600 600 1+0/600
+2025-11-30 01:40:27,245-0800 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose ecbx1200 600 600 1+0/600
+2025-11-30 01:40:28,725-0800 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose ecbx1440 600 600 1+0/600
+2025-11-30 01:40:30,217-0800 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose ecrm1200 600 600 1+0/600
+2025-11-30 01:40:31,694-0800 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose ecrm1728 600 600 1+0/600
+2025-11-30 01:40:33,078-0800 INFO  pdflatex - this process (21956) finishes with exit code 0
+2025-11-30 01:40:33,703-0800 INFO  pdflatex - this process (14776) started by sh in directory D:\ with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-11-30 01:40:33,706-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-30 01:40:33,707-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 01:40:33,708-0800 INFO  pdflatex - allowing known shell commands
+2025-11-30 01:40:34,090-0800 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose ecbx1095 600 600 1+0/600
+2025-11-30 01:40:35,634-0800 INFO  pdflatex - this process (14776) finishes with exit code 0
+2025-11-30 17:20:29,799-0800 INFO  pdflatex - this process (1416) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-11-30 17:20:29,802-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-30 17:20:29,803-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 17:20:29,829-0800 INFO  pdflatex - allowing known shell commands
+2025-11-30 17:20:30,997-0800 INFO  pdflatex - this process (1416) finishes with exit code 0
+2025-11-30 17:20:31,480-0800 INFO  pdflatex - this process (3476) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-11-30 17:20:31,483-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-30 17:20:31,484-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 17:20:31,485-0800 INFO  pdflatex - allowing known shell commands
+2025-11-30 17:20:31,853-0800 INFO  pdflatex - this process (3476) finishes with exit code 0
+2025-11-30 17:26:20,448-0800 INFO  pdflatex - this process (22288) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-11-30 17:26:20,448-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-30 17:26:20,449-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 17:26:20,451-0800 INFO  pdflatex - allowing known shell commands
+2025-11-30 17:26:20,814-0800 INFO  pdflatex - this process (22288) finishes with exit code 0
+2025-11-30 17:26:21,325-0800 INFO  pdflatex - this process (8524) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-11-30 17:26:21,325-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-30 17:26:21,326-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 17:26:21,328-0800 INFO  pdflatex - allowing known shell commands
+2025-11-30 17:26:21,662-0800 INFO  pdflatex - this process (8524) finishes with exit code 0
+2025-11-30 17:27:20,337-0800 INFO  pdflatex - this process (14028) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-11-30 17:27:20,337-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-30 17:27:20,338-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 17:27:20,340-0800 INFO  pdflatex - allowing known shell commands
+2025-11-30 17:27:20,696-0800 INFO  pdflatex - this process (14028) finishes with exit code 0
+2025-11-30 17:27:21,260-0800 INFO  pdflatex - this process (22476) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-11-30 17:27:21,260-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-30 17:27:21,261-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 17:27:21,263-0800 INFO  pdflatex - allowing known shell commands
+2025-11-30 17:27:21,609-0800 INFO  pdflatex - this process (22476) finishes with exit code 0
+2025-11-30 17:27:22,053-0800 INFO  pdflatex - this process (12224) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-11-30 17:27:22,056-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-11-30 17:27:22,057-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-11-30 17:27:22,058-0800 INFO  pdflatex - allowing known shell commands
+2025-11-30 17:27:22,403-0800 INFO  pdflatex - this process (12224) finishes with exit code 0
+2025-12-06 15:08:24,923-0800 INFO  pdflatex - this process (29484) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-12-06 15:08:24,927-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:08:24,928-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:08:24,958-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:08:26,260-0800 INFO  pdflatex - this process (29484) finishes with exit code 0
+2025-12-06 15:08:26,777-0800 INFO  pdflatex - this process (29620) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-12-06 15:08:26,779-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:08:26,781-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:08:26,782-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:08:27,140-0800 INFO  pdflatex - this process (29620) finishes with exit code 0
+2025-12-06 15:08:27,591-0800 INFO  pdflatex - this process (28864) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder outline.tex
+2025-12-06 15:08:27,594-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:08:27,595-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:08:27,596-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:08:27,941-0800 INFO  pdflatex - this process (28864) finishes with exit code 0
+2025-12-06 15:20:54,255-0800 INFO  pdflatex - this process (7016) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:20:54,256-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:20:54,257-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:20:54,258-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:20:54,627-0800 INFO  pdflatex - this process (7016) finishes with exit code 0
+2025-12-06 15:20:55,136-0800 INFO  pdflatex - this process (28952) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:20:55,136-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:20:55,137-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:20:55,138-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:20:55,474-0800 INFO  pdflatex - this process (28952) finishes with exit code 0
+2025-12-06 15:22:01,494-0800 INFO  pdflatex - this process (2312) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:22:01,494-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:22:01,495-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:22:01,497-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:22:01,838-0800 INFO  pdflatex - this process (2312) finishes with exit code 0
+2025-12-06 15:22:02,319-0800 INFO  pdflatex - this process (8140) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:22:02,319-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:22:02,320-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:22:02,321-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:22:02,650-0800 INFO  pdflatex - this process (8140) finishes with exit code 0
+2025-12-06 15:23:03,295-0800 INFO  pdflatex - this process (26540) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:23:03,295-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:23:03,297-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:23:03,298-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:23:03,653-0800 INFO  pdflatex - this process (26540) finishes with exit code 0
+2025-12-06 15:23:04,150-0800 INFO  pdflatex - this process (29476) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:23:04,150-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:23:04,152-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:23:04,153-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:23:04,489-0800 INFO  pdflatex - this process (29476) finishes with exit code 0
+2025-12-06 15:25:41,842-0800 INFO  pdflatex - this process (26984) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:25:41,842-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:25:41,843-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:25:41,845-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:25:42,187-0800 INFO  pdflatex - this process (26984) finishes with exit code 0
+2025-12-06 15:25:42,689-0800 INFO  pdflatex - this process (18224) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:25:42,689-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:25:42,691-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:25:42,692-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:25:43,028-0800 INFO  pdflatex - this process (18224) finishes with exit code 0
+2025-12-06 15:37:50,342-0800 INFO  pdflatex - this process (29368) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:37:50,342-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:37:50,343-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:37:50,345-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:37:50,684-0800 INFO  pdflatex - this process (29368) finishes with exit code 0
+2025-12-06 15:37:51,174-0800 INFO  pdflatex - this process (23716) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:37:51,174-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:37:51,175-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:37:51,177-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:37:51,521-0800 INFO  pdflatex - this process (23716) finishes with exit code 0
+2025-12-06 15:39:17,141-0800 INFO  pdflatex - this process (23656) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:39:17,141-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:39:17,142-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:39:17,143-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:39:17,486-0800 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose ecrm1000 600 600 1+0/600
+2025-12-06 15:39:19,390-0800 INFO  pdflatex - this process (23656) finishes with exit code 0
+2025-12-06 15:39:19,923-0800 INFO  pdflatex - this process (27424) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:39:19,926-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:39:19,927-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:39:19,929-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:39:20,267-0800 INFO  pdflatex - this process (27424) finishes with exit code 0
+2025-12-06 15:40:00,410-0800 INFO  pdflatex - this process (24052) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:40:00,410-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:40:00,412-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:40:00,413-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:40:00,755-0800 INFO  pdflatex - this process (24052) finishes with exit code 0
+2025-12-06 15:40:01,263-0800 INFO  pdflatex - this process (29468) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:40:01,263-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:40:01,264-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:40:01,265-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:40:01,603-0800 INFO  pdflatex - this process (29468) finishes with exit code 0
+2025-12-06 15:42:13,405-0800 INFO  pdflatex - this process (25788) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:42:13,406-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:42:13,407-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:42:13,408-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:42:13,753-0800 INFO  pdflatex - this process (25788) finishes with exit code 0
+2025-12-06 15:42:14,243-0800 INFO  pdflatex - this process (10388) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:42:14,244-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:42:14,245-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:42:14,246-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:42:14,583-0800 INFO  pdflatex - this process (10388) finishes with exit code 0
+2025-12-06 15:42:54,327-0800 INFO  pdflatex - this process (15116) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:42:54,327-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:42:54,329-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:42:54,330-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:42:54,675-0800 INFO  pdflatex - this process (15116) finishes with exit code 0
+2025-12-06 15:42:55,177-0800 INFO  pdflatex - this process (26808) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:42:55,177-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:42:55,178-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:42:55,180-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:42:55,510-0800 INFO  pdflatex - this process (26808) finishes with exit code 0
+2025-12-06 15:46:05,898-0800 INFO  pdflatex - this process (30548) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:46:05,898-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:46:05,899-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:46:05,901-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:46:06,246-0800 INFO  pdflatex - this process (30548) finishes with exit code 0
+2025-12-06 15:46:06,764-0800 INFO  pdflatex - this process (28400) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 15:46:06,764-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 15:46:06,766-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 15:46:06,767-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 15:46:07,098-0800 INFO  pdflatex - this process (28400) finishes with exit code 0
+2025-12-06 17:41:53,560-0800 INFO  pdflatex - this process (28828) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 17:41:53,561-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 17:41:53,562-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 17:41:53,564-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 17:41:53,915-0800 INFO  pdflatex - this process (28828) finishes with exit code 0
+2025-12-06 17:41:54,409-0800 INFO  pdflatex - this process (27380) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 17:41:54,409-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 17:41:54,410-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 17:41:54,411-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 17:41:54,746-0800 INFO  pdflatex - this process (27380) finishes with exit code 0
+2025-12-06 18:03:30,242-0800 INFO  pdflatex - this process (29356) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 18:03:30,242-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 18:03:30,244-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 18:03:30,245-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 18:03:30,623-0800 INFO  pdflatex - this process (29356) finishes with exit code 0
+2025-12-06 18:03:31,191-0800 INFO  pdflatex - this process (8692) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 18:03:31,191-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 18:03:31,193-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 18:03:31,194-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 18:03:31,553-0800 INFO  pdflatex - this process (8692) finishes with exit code 0
+2025-12-06 18:13:31,795-0800 INFO  pdflatex - this process (18380) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 18:13:31,795-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 18:13:31,796-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 18:13:31,798-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 18:13:32,153-0800 INFO  pdflatex - this process (18380) finishes with exit code 0
+2025-12-06 18:13:32,667-0800 INFO  pdflatex - this process (27380) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 18:13:32,667-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 18:13:32,668-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 18:13:32,669-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 18:13:33,024-0800 INFO  pdflatex - this process (27380) finishes with exit code 0
+2025-12-06 19:30:17,129-0800 INFO  pdflatex - this process (8972) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 19:30:17,132-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 19:30:17,133-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 19:30:17,160-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 19:30:18,254-0800 INFO  pdflatex - this process (8972) finishes with exit code 0
+2025-12-06 19:30:18,774-0800 INFO  pdflatex - this process (13260) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 19:30:18,777-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 19:30:18,778-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 19:30:18,780-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 19:30:19,123-0800 INFO  pdflatex - this process (13260) finishes with exit code 0
+2025-12-06 19:42:14,940-0800 INFO  pdflatex - this process (5160) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 19:42:14,940-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 19:42:14,941-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 19:42:14,943-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 19:42:15,309-0800 INFO  pdflatex - this process (5160) finishes with exit code 0
+2025-12-06 19:42:15,846-0800 INFO  pdflatex - this process (26200) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 19:42:15,846-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 19:42:15,847-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 19:42:15,849-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 19:42:16,206-0800 INFO  pdflatex - this process (26200) finishes with exit code 0
+2025-12-06 19:50:59,966-0800 INFO  pdflatex - this process (21248) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 19:50:59,966-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 19:50:59,968-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 19:50:59,969-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 19:51:00,368-0800 INFO  pdflatex - this process (21248) finishes with exit code 0
+2025-12-06 19:51:00,909-0800 INFO  pdflatex - this process (28072) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 19:51:00,912-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 19:51:00,913-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 19:51:00,915-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 19:51:01,296-0800 INFO  pdflatex - this process (28072) finishes with exit code 0
+2025-12-06 19:55:46,401-0800 INFO  pdflatex - this process (15996) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 19:55:46,402-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 19:55:46,403-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 19:55:46,404-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 19:55:46,797-0800 INFO  pdflatex - this process (15996) finishes with exit code 0
+2025-12-06 19:55:47,304-0800 INFO  pdflatex - this process (25152) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 19:55:47,305-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 19:55:47,306-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 19:55:47,307-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 19:55:47,671-0800 INFO  pdflatex - this process (25152) finishes with exit code 0
+2025-12-06 23:55:48,402-0800 INFO  pdflatex - this process (20776) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-06 23:55:48,406-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-06 23:55:48,407-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-06 23:55:48,413-0800 INFO  pdflatex - allowing known shell commands
+2025-12-06 23:55:49,489-0800 INFO  pdflatex - this process (20776) finishes with exit code 1
+2025-12-07 00:02:48,055-0800 INFO  pdflatex - this process (7376) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-07 00:02:48,055-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-07 00:02:48,057-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-07 00:02:48,058-0800 INFO  pdflatex - allowing known shell commands
+2025-12-07 00:02:48,437-0800 INFO  pdflatex - this process (7376) finishes with exit code 1
+2025-12-07 00:23:24,478-0800 INFO  pdflatex - this process (23044) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-07 00:23:24,479-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-07 00:23:24,480-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-07 00:23:24,481-0800 INFO  pdflatex - allowing known shell commands
+2025-12-07 00:23:24,850-0800 INFO  pdflatex.core - start process: miktex-makepk --enable-installer --verbose ecti1095 600 600 1+0/600
+2025-12-07 00:23:26,808-0800 INFO  pdflatex - this process (23044) finishes with exit code 0
+2025-12-07 00:23:27,354-0800 INFO  pdflatex - this process (26308) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-07 00:23:27,356-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-07 00:23:27,358-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-07 00:23:27,359-0800 INFO  pdflatex - allowing known shell commands
+2025-12-07 00:23:27,753-0800 INFO  pdflatex - this process (26308) finishes with exit code 0
+2025-12-07 00:23:57,722-0800 INFO  pdflatex - this process (23852) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-07 00:23:57,722-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-07 00:23:57,723-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-07 00:23:57,725-0800 INFO  pdflatex - allowing known shell commands
+2025-12-07 00:23:58,133-0800 INFO  pdflatex - this process (23852) finishes with exit code 0
+2025-12-07 00:23:58,704-0800 INFO  pdflatex - this process (14772) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-07 00:23:58,706-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-07 00:23:58,707-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-07 00:23:58,708-0800 INFO  pdflatex - allowing known shell commands
+2025-12-07 00:23:59,089-0800 INFO  pdflatex - this process (14772) finishes with exit code 0
+2025-12-07 00:25:32,689-0800 INFO  pdflatex - this process (15044) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-07 00:25:32,689-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-07 00:25:32,690-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-07 00:25:32,692-0800 INFO  pdflatex - allowing known shell commands
+2025-12-07 00:25:33,082-0800 INFO  pdflatex - this process (15044) finishes with exit code 0
+2025-12-07 00:25:33,648-0800 INFO  pdflatex - this process (13712) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-07 00:25:33,650-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-07 00:25:33,652-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-07 00:25:33,653-0800 INFO  pdflatex - allowing known shell commands
+2025-12-07 00:25:34,036-0800 INFO  pdflatex - this process (13712) finishes with exit code 0
+2025-12-07 00:36:18,726-0800 INFO  pdflatex - this process (11660) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-07 00:36:18,726-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-07 00:36:18,727-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-07 00:36:18,729-0800 INFO  pdflatex - allowing known shell commands
+2025-12-07 00:36:19,156-0800 INFO  pdflatex - this process (11660) finishes with exit code 0
+2025-12-07 00:36:19,721-0800 INFO  pdflatex - this process (17688) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-07 00:36:19,724-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-07 00:36:19,725-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-07 00:36:19,726-0800 INFO  pdflatex - allowing known shell commands
+2025-12-07 00:36:20,136-0800 INFO  pdflatex - this process (17688) finishes with exit code 0
+2025-12-14 00:52:59,050-0800 INFO  pdflatex - this process (18744) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 00:52:59,054-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 00:52:59,055-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 00:52:59,057-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 00:53:00,245-0800 INFO  pdflatex - this process (18744) finishes with exit code 0
+2025-12-14 00:53:00,769-0800 INFO  pdflatex - this process (4028) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 00:53:00,771-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 00:53:00,772-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 00:53:00,774-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 00:53:01,234-0800 INFO  pdflatex - this process (4028) finishes with exit code 0
+2025-12-14 01:14:50,267-0800 INFO  pdflatex - this process (17968) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 01:14:50,267-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 01:14:50,269-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 01:14:50,270-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 01:14:50,751-0800 INFO  pdflatex - this process (17968) finishes with exit code 0
+2025-12-14 01:14:51,302-0800 INFO  pdflatex - this process (18340) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 01:14:51,304-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 01:14:51,305-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 01:14:51,307-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 01:14:51,790-0800 INFO  pdflatex - this process (18340) finishes with exit code 0
+2025-12-14 01:20:37,416-0800 INFO  pdflatex - this process (17052) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 01:20:37,416-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 01:20:37,417-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 01:20:37,419-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 01:20:38,086-0800 INFO  pdflatex - this process (17052) finishes with exit code 0
+2025-12-14 01:20:38,633-0800 INFO  pdflatex - this process (16996) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 01:20:38,635-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 01:20:38,636-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 01:20:38,638-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 01:20:39,278-0800 INFO  pdflatex - this process (16996) finishes with exit code 0
+2025-12-14 01:32:35,576-0800 INFO  pdflatex - this process (15156) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 01:32:35,576-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 01:32:35,577-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 01:32:35,579-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 01:32:35,826-0800 INFO  pdflatex - installing package setspace triggered by tex/latex/setspace\setspace.sty
+2025-12-14 01:32:35,839-0800 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/hello
+2025-12-14 01:32:36,481-0800 INFO  pdflatex.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2025-12-14 01:32:36,645-0800 INFO  pdflatex - mpm: starting package maintenance...
+2025-12-14 01:32:36,645-0800 INFO  pdflatex - mpm: installation directory: D:\miktex-portable\texmfs\install
+2025-12-14 01:32:36,645-0800 INFO  pdflatex - mpm: package repository: https://ctan.math.illinois.edu/systems/win32/miktex/tm/packages/
+2025-12-14 01:32:37,574-0800 WARN  pdflatex.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2025-12-14 01:32:37,574-0800 WARN  pdflatex.packagemanager - dependency problem: sttools is required by _miktex-latex-packages
+2025-12-14 01:32:37,574-0800 WARN  pdflatex.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2025-12-14 01:32:37,575-0800 WARN  pdflatex.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2025-12-14 01:32:37,629-0800 INFO  pdflatex - mpm: visiting repository https://ctan.math.illinois.edu/systems/win32/miktex/tm/packages/...
+2025-12-14 01:32:37,629-0800 INFO  pdflatex - mpm: repository type: remote package repository
+2025-12-14 01:32:37,655-0800 INFO  pdflatex - mpm: loading package repository manifest...
+2025-12-14 01:32:37,656-0800 INFO  pdflatex - mpm: downloading https://ctan.math.illinois.edu/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma...
+2025-12-14 01:32:37,658-0800 INFO  pdflatex.packagemanager - going to download https://ctan.math.illinois.edu/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma
+2025-12-14 01:32:38,321-0800 INFO  pdflatex - mpm: 0.40 MB, 4.82 Mbit/s
+2025-12-14 01:32:38,759-0800 INFO  pdflatex - mpm: package repository digest: 6539b0b72ad97f0e50f1db574e063716
+2025-12-14 01:32:38,759-0800 INFO  pdflatex - mpm: going to download 7535 bytes
+2025-12-14 01:32:38,759-0800 INFO  pdflatex - mpm: going to install 2 file(s) (1 package(s))
+2025-12-14 01:32:39,395-0800 INFO  pdflatex.packagemanager - installing package setspace
+2025-12-14 01:32:39,395-0800 INFO  pdflatex - mpm: downloading https://ctan.math.illinois.edu/systems/win32/miktex/tm/packages/setspace.tar.lzma...
+2025-12-14 01:32:39,396-0800 INFO  pdflatex.packagemanager - going to download https://ctan.math.illinois.edu/systems/win32/miktex/tm/packages/setspace.tar.lzma
+2025-12-14 01:32:39,464-0800 INFO  pdflatex - mpm: 0.01 MB, 0.87 Mbit/s
+2025-12-14 01:32:39,473-0800 INFO  pdflatex - mpm: extracting files from setspace.tar.lzma...
+2025-12-14 01:33:16,307-0800 INFO  pdflatex.core - start process: miktex fontmaps configure
+2025-12-14 01:33:20,069-0800 INFO  pdflatex - this process (15156) finishes with exit code 0
+2025-12-14 01:33:20,674-0800 INFO  pdflatex - this process (11592) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 01:33:20,677-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 01:33:20,678-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 01:33:20,679-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 01:33:21,360-0800 INFO  pdflatex - this process (11592) finishes with exit code 0
+2025-12-14 01:59:54,690-0800 INFO  pdflatex - this process (15076) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 01:59:54,690-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 01:59:54,691-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 01:59:54,693-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 01:59:55,488-0800 INFO  pdflatex - this process (15076) finishes with exit code 0
+2025-12-14 01:59:56,062-0800 INFO  pdflatex - this process (21004) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 01:59:56,065-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 01:59:56,066-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 01:59:56,067-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 01:59:56,820-0800 INFO  pdflatex - this process (21004) finishes with exit code 0
+2025-12-14 02:22:17,217-0800 INFO  pdflatex - this process (17180) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 02:22:17,217-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 02:22:17,219-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 02:22:17,220-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 02:22:18,017-0800 INFO  pdflatex - this process (17180) finishes with exit code 0
+2025-12-14 02:22:18,583-0800 INFO  pdflatex - this process (21988) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 02:22:18,586-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 02:22:18,587-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 02:22:18,588-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 02:22:19,364-0800 INFO  pdflatex - this process (21988) finishes with exit code 0
+2025-12-14 02:33:20,212-0800 INFO  pdflatex - this process (21864) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 02:33:20,213-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 02:33:20,214-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 02:33:20,215-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 02:33:21,004-0800 INFO  pdflatex - this process (21864) finishes with exit code 0
+2025-12-14 02:33:21,570-0800 INFO  pdflatex - this process (6164) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 02:33:21,572-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 02:33:21,573-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 02:33:21,574-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 02:33:22,350-0800 INFO  pdflatex - this process (6164) finishes with exit code 0
+2025-12-14 03:00:09,992-0800 INFO  pdflatex - this process (17184) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 03:00:09,992-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 03:00:09,993-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 03:00:09,995-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 03:00:10,872-0800 INFO  pdflatex - this process (17184) finishes with exit code 0
+2025-12-14 03:00:11,451-0800 INFO  pdflatex - this process (22120) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 03:00:11,454-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 03:00:11,455-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 03:00:11,456-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 03:00:12,277-0800 INFO  pdflatex - this process (22120) finishes with exit code 0
+2025-12-14 03:09:26,090-0800 INFO  pdflatex - this process (21536) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 03:09:26,090-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 03:09:26,091-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 03:09:26,093-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 03:09:26,935-0800 INFO  pdflatex - this process (21536) finishes with exit code 0
+2025-12-14 03:09:27,509-0800 INFO  pdflatex - this process (6000) started by sh in directory C:\Users\mod\folder with command line: D:\miktex-portable\texmfs\install\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -recorder ControlsReport.tex
+2025-12-14 03:09:27,511-0800 INFO  pdflatex - running on Windows 10.0.26200
+2025-12-14 03:09:27,512-0800 INFO  pdflatex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2025-12-14 03:09:27,514-0800 INFO  pdflatex - allowing known shell commands
+2025-12-14 03:09:28,338-0800 INFO  pdflatex - this process (6000) finishes with exit code 0
