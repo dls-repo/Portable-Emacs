@@ -82,13 +82,6 @@
   ;; Automatically preview LaTeX on startup
   (setq org-startup-with-latex-preview t))
 
-;; Enable Babel languages
-(org-babel-do-load-languages
- 'org-babel-load-languages
- '((python . t)
-   (emacs-lisp . t)))
-
-
 ;; ----------------------
 ;; 5. Paths to config.org and config.el
 ;; ----------------------
@@ -115,11 +108,20 @@
 ;; 8. Custom variables & faces
 ;; ----------------------
 (custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(auctex beacon elfeed-goodies elfeed-org elfeed-tube elfeed-webkit
-	    emms evil evil-collection gptel help-find-org-mode ivy
-	    pdf-tools zenburn-theme)))
+   '(auctex beacon company elfeed-goodies elfeed-org elfeed-tube
+	    elfeed-webkit emms evil-collection flymake-aspell gpt
+	    gptel help-find-org-mode ivy langtool magit pdf-tools
+	    vterm zenburn-theme)))
 (custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  )
 
 ;; ----------------------

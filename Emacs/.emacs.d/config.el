@@ -1,12 +1,10 @@
-;; --- Disable GPG signature checks ---
-(setq package-check-signature nil)
-
-;; --- Package system ---
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
-(add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/"))
+(setq package-archives
+      '(("nongnu-devel" . "https://elpa.nongnu.org/nongnu-devel/")
+        ("gnu"         . "https://elpa.gnu.org/packages/")
+        ("melpa"       . "https://melpa.org/packages/")))
 (package-initialize)
-
+(package-refresh-contents)
 ;; --- Bootstrap use-package ---
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
@@ -19,80 +17,27 @@
   :config
   (beacon-mode 1))
 
-(custom-set-variables
- '(package-selected-packages '(beacon evil ivy)))
-(custom-set-faces)
+(use-package company
+  :ensure t
+  :init
+  (global-company-mode)  ; Enable Company Mode globally
+  :config
+  (setq company-idle-delay 0.2)  ; Wait 200ms before showing suggestions
+  (setq company-minimum-prefix-length 1))  ; Minimum prefix length for suggestions
 
-;; ================================
-;; Modeline color changes
-;; ================================
-
-(defvar my/modeline-modified-color "#1d847c")
-(defvar my/modeline-saved-color    "#7b7067")
-(defvar my/modeline-default-color  (face-background 'mode-line))
-
-(defun my/update-modeline-color ()
-  "Change the mode line color depending on buffer state."
-  (let* ((bg (cond
-              ((minibufferp) my/modeline-default-color)
-              (buffer-read-only my/modeline-saved-color)
-              ((buffer-modified-p) my/modeline-modified-color)
-              (t my/modeline-default-color))))
-    (set-face-background 'mode-line bg)))
-
-(add-hook 'post-command-hook #'my/update-modeline-color)
-
+(global-visual-line-mode 1) ;;allow text wrapping
+(electric-indent-mode 1)
 (display-time-mode 1)
+(global-display-line-numbers-mode 1)
+(menu-bar-mode 0)
+(tool-bar-mode 0)
+(setq org-startup-with-inline-images t)
 
-;; Make sure elfeed is installed and loaded
-(use-package elfeed
-  :ensure t)
-
-;; Elfeed goodies for better UX
-(use-package elfeed-goodies
-  :ensure t
-  :after elfeed
+(use-package zenburn-theme
   :config
-  (elfeed-goodies/setup)
-  (setq elfeed-goodies/log-window-size 0.5))
+  (load-theme 'zenburn t))
 
-;; Elfeed-tube for YouTube RSS feeds
-(use-package elfeed-tube
-  :ensure t
-  :after elfeed
-  :config
-  ;; Path to your org file relative to .emacs.d
-  (setq elfeed-tube-org-file
-        (expand-file-name "org/elfeed.org" user-emacs-directory))
-  ;; Initialize elfeed-tube
-  (elfeed-tube-setup)
-  ;; Optional: auto-update Elfeed when opening search buffer
-  (add-hook 'elfeed-search-mode-hook 'elfeed-update))
-
-(setq emms-player-list '(emms-player-mpv))
-
-(defun my/elfeed-show-play-with-mpv ()
-  "Play the current Elfeed entry's video URL using mpv (Windows-friendly)."
-  (interactive)
-  (let ((link (elfeed-entry-link elfeed-show-entry)))
-    (if (not link)
-        (message "No video link found.")
-      (message "Launching mpv: %s" link)
-      ;; Windows-friendly way to launch GUI MPV
-      (start-process-shell-command
-       "mpv" nil
-       (format "start \"\" \"%s\" --ytdl-format=\"bestvideo+bestaudio/best\" --cache=yes --cache-secs=300 \"%s\"" mpv-exe link)))))
-
-
-
-(with-eval-after-load 'elfeed
-  (global-set-key (kbd "C-c C-g") 'elfeed-show-play-with-mpv))
-
-;; Fix for C-u in Normal mode to scroll like Vim
 (setq evil-want-C-u-scroll t)
-
-;; Use evil-collection for bindings
-(setq evil-want-integration t) ;; This is optional since it's already set to t by default.
 (setq evil-want-keybinding nil)
 (require 'evil)
 (when (require 'evil-collection nil t)
@@ -106,10 +51,12 @@
 ;; Optional: make ESC quit prompts everywhere
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
-(message "Git executable: %s" (executable-find "git"))
-(message "Git version:\n%s" (shell-command-to-string "git --version"))
-
-(setq org-startup-with-inline-images t)
+(use-package gptel
+  :ensure t
+  :commands gptel
+  :config
+  (setq gptel-api-key "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")
+  (setq gptel-default-mode 'org-mode))
 
 (use-package ivy
   :defer 0
@@ -118,16 +65,38 @@
   (setq ivy-use-virtual-buffers t
         enable-recursive-minibuffers t))
 
-(with-eval-after-load 'org
-  (setq org-latex-pdf-process
-        '("latexmk -pdf -interaction=nonstopmode -output-directory=%o %f")))
+(use-package org
+  :ensure t
+  :config
+  (require 'org-tempo))
 
-;; Enable Babel languages
+;; Do NOT auto-indent Org src blocks
+(setq org-src-preserve-indentation t
+      org-edit-src-content-indentation 0
+      org-adapt-indentation nil
+      org-src-tab-acts-natively t)
+(setq org-babel-python-command "python3")
+
 (org-babel-do-load-languages
- 'org-babel-load-languages
- '((python . t)
-   (emacs-lisp . t)
-   (C . t)))
+  'org-babel-load-languages
+    '((python . t)
+      (emacs-lisp . t)
+      (C . t)))
+
+(use-package flyspell
+  :ensure t
+  :init
+  (setq ispell-program-name "aspell") ;; or "ispell", depending on your preference
+  :hook
+  (text-mode . flyspell-mode)          
+  (prog-mode . flyspell-prog-mode))    
+
+(use-package langtool
+  :ensure t
+  :defer t
+  :init
+  (setq langtool-language-tool-jar "~/LanguageTool-6.6/languagetool-server.jar") ;; Set the jar path
+  (global-set-key (kbd "C-c h") 'langtool-check)) ;; Keybinding for grammar checking
 
 (with-eval-after-load 'evil
   (define-key evil-normal-state-map (kbd "C-<left>") #'evil-window-left)

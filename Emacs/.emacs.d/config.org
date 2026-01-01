@@ -1,17 +1,15 @@
-#+title: Portable Emacs Configuration
+#+title: Emacs Configuration
 #+author: Dan La Scala
 
 * Package System
 #+begin_src emacs-lisp
-;; --- Disable GPG signature checks ---
-(setq package-check-signature nil)
-
-;; --- Package system ---
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
-(add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/"))
+(setq package-archives
+      '(("nongnu-devel" . "https://elpa.nongnu.org/nongnu-devel/")
+        ("gnu"         . "https://elpa.gnu.org/packages/")
+        ("melpa"       . "https://melpa.org/packages/")))
 (package-initialize)
-
+(package-refresh-contents)
 ;; --- Bootstrap use-package ---
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
@@ -29,111 +27,35 @@ Light up cursor when changing buffer
   (beacon-mode 1))
 #+end_src
 
+* Company mode
+"COMPlete ANYthing" mode (Company mode) is an auto-completion framework designed for text and coding.
+#+begin_src elisp
+(use-package company
+  :ensure t
+  :init
+  (global-company-mode)  ; Enable Company Mode globally
+  :config
+  (setq company-idle-delay 0.2)  ; Wait 200ms before showing suggestions
+  (setq company-minimum-prefix-length 1))  ; Minimum prefix length for suggestions
+#+end_src
+
 * Custom Settings
 #+begin_src emacs-lisp
-(custom-set-variables
- '(package-selected-packages '(beacon evil ivy)))
-(custom-set-faces)
-
-;; ================================
-;; Modeline color changes
-;; ================================
-
-(defvar my/modeline-modified-color "#1d847c")
-(defvar my/modeline-saved-color    "#7b7067")
-(defvar my/modeline-default-color  (face-background 'mode-line))
-
-(defun my/update-modeline-color ()
-  "Change the mode line color depending on buffer state."
-  (let* ((bg (cond
-              ((minibufferp) my/modeline-default-color)
-              (buffer-read-only my/modeline-saved-color)
-              ((buffer-modified-p) my/modeline-modified-color)
-              (t my/modeline-default-color))))
-    (set-face-background 'mode-line bg)))
-
-(add-hook 'post-command-hook #'my/update-modeline-color)
-
-#+end_src
-
-* Display Time
-#+begin_src emacs-lisp
+(global-visual-line-mode 1) ;;allow text wrapping
+(electric-indent-mode 1)
 (display-time-mode 1)
-#+end_src
+(global-display-line-numbers-mode 1)
+(tool-bar-mode 0)
+(setq org-startup-with-inline-images t)
 
-* Elfeed-Tube
-Elfeed-tube takes advantage of mpv to play YouTube videos from the RSS feed
-#+begin_src emacs-lisp
-;; Make sure elfeed is installed and loaded
-(use-package elfeed
-  :ensure t)
-
-;; Elfeed goodies for better UX
-(use-package elfeed-goodies
-  :ensure t
-  :after elfeed
+(use-package zenburn-theme
   :config
-  (elfeed-goodies/setup)
-  (setq elfeed-goodies/log-window-size 0.5))
-
-;; Elfeed-tube for YouTube RSS feeds
-(use-package elfeed-tube
-  :ensure t
-  :after elfeed
-  :config
-  ;; Path to your org file relative to .emacs.d
-  (setq elfeed-tube-org-file
-        (expand-file-name "org/elfeed.org" user-emacs-directory))
-  ;; Initialize elfeed-tube
-  (elfeed-tube-setup)
-  ;; Optional: auto-update Elfeed when opening search buffer
-  (add-hook 'elfeed-search-mode-hook 'elfeed-update))
-
-
+  (load-theme 'zenburn t))
 #+end_src
-
-* EMMS
-EMMS is the multi-media system for emacs. It can be used to create music or podcast playlists, but in my use-case, was included first and foremost to be a "front-end" for mpv in order to have a video experience contained inside emacs, such as when viewing YouTube videos from Elfeed.
-
-I have created a custom function to automtically load videos from Elfeed using SPC-v
-
-NOTES:
-- Install yt-dlp using wget on their github (may or may not be needed)
-  sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
-
-- Remove "--hwdec=no" on bare-metal machines to get better quality
-
-
-#+begin_src emacs-lisp
-(setq emms-player-list '(emms-player-mpv))
-
-(defun my/elfeed-show-play-with-mpv ()
-  "Play the current Elfeed entry's video URL using mpv (Windows-friendly)."
-  (interactive)
-  (let ((link (elfeed-entry-link elfeed-show-entry)))
-    (if (not link)
-        (message "No video link found.")
-      (message "Launching mpv: %s" link)
-      ;; Windows-friendly way to launch GUI MPV
-      (start-process-shell-command
-       "mpv" nil
-       (format "start \"\" \"%s\" --ytdl-format=\"bestvideo+bestaudio/best\" --cache=yes --cache-secs=300 \"%s\"" mpv-exe link)))))
-
-
-
-(with-eval-after-load 'elfeed
-  (global-set-key (kbd "C-c C-g") 'elfeed-show-play-with-mpv))
-
-#+end_src
-
 
 * Evil Mode
 #+begin_src emacs-lisp
-;; Fix for C-u in Normal mode to scroll like Vim
 (setq evil-want-C-u-scroll t)
-
-;; Use evil-collection for bindings
-(setq evil-want-integration t) ;; This is optional since it's already set to t by default.
 (setq evil-want-keybinding nil)
 (require 'evil)
 (when (require 'evil-collection nil t)
@@ -148,20 +70,15 @@ NOTES:
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 #+end_src
 
-* Git Diagnostics
+* GPTel
 #+begin_src emacs-lisp
-(message "Git executable: %s" (executable-find "git"))
-(message "Git version:\n%s" (shell-command-to-string "git --version"))
+(use-package gptel
+  :ensure t
+  :commands gptel
+  :config
+  (setq gptel-api-key "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")
+  (setq gptel-default-mode 'org-mode))
 #+end_src
-
-* INLINE IMAGES
-Any notes taken in org mode can support inline images. Here we are enabling it. You can add the path in between brackets to embedd it like this:
-        [[./images/my-diagram.png]]
-
-#+begin_src emacs-lisp
-(setq org-startup-with-inline-images t)
-#+end_src
-
 
 * Ivy
 #+begin_src emacs-lisp
@@ -173,25 +90,47 @@ Any notes taken in org mode can support inline images. Here we are enabling it. 
         enable-recursive-minibuffers t))
 #+end_src
 
-* LaTeX
-Adding explicit instruction to use latexmk -pdf in order to allow embedded images in an org document to be converted to a pdf
+* Org-Settings
 #+begin_src emacs-lisp
-(with-eval-after-load 'org
-  (setq org-latex-pdf-process
-        '("latexmk -pdf -interaction=nonstopmode -output-directory=%o %f")))
+(use-package org
+  :ensure t
+  :config
+  (require 'org-tempo))
+
+;; Do NOT auto-indent Org src blocks
+(setq org-src-preserve-indentation t
+      org-edit-src-content-indentation 0
+      org-adapt-indentation nil
+      org-src-tab-acts-natively t)
+(setq org-babel-python-command "python3")
+
+(org-babel-do-load-languages
+  'org-babel-load-languages
+    '((python . t)
+      (emacs-lisp . t)
+      (C . t)))
 #+end_src
 
-* Org-Babel
-Org-Babel allows for code blocks to be embedded in org documents
+* Spell Checker
+Aspell (when installed on the system with the package manager) can be used via flycheck for spell checking. Must have langtool-server.jar for grammar
 #+begin_src emacs-lisp
-;; Enable Babel languages
-(org-babel-do-load-languages
- 'org-babel-load-languages
- '((python . t)
-   (emacs-lisp . t)
-   (C . t)))
+(use-package flyspell
+  :ensure t
+  :init
+  (setq ispell-program-name "aspell") ;; or "ispell", depending on your preference
+  :hook
+  (text-mode . flyspell-mode)          
+  (prog-mode . flyspell-prog-mode))    
+
+(use-package langtool
+  :ensure t
+  :defer t
+  :init
+  (setq langtool-language-tool-jar "~/LanguageTool-6.6/languagetool-server.jar") ;; Set the jar path
+  (global-set-key (kbd "C-c h") 'langtool-check)) ;; Keybinding for grammar checking
 #+end_src
-* WINDOW NAVIGATION
+
+* Window Navigation
 Remapping some commands for easier window navigation
 #+begin_src emacs-lisp
 (with-eval-after-load 'evil

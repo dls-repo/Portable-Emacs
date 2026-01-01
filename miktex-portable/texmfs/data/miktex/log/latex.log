@@ -367,3 +367,10 @@
 2025-12-14 00:57:46,270-0800 INFO  latex - setting output directory: d:/Emacs\.emacs.d\tmp\latex
 2025-12-14 00:57:46,270-0800 INFO  latex - setting aux directory: d:/Emacs\.emacs.d\tmp\latex
 2025-12-14 00:57:46,432-0800 INFO  latex - this process (7672) finishes with exit code 0
+2026-01-01 00:11:49,906-0800 INFO  latex - this process (25340) started by cmdproxy in directory c:\Users\mod with command line: latex -interaction nonstopmode -output-directory d:/Emacs/.emacs.d/tmp/latex/ d:/Emacs/.emacs.d/tmp/latex/orgtexreVl2z.tex
+2026-01-01 00:11:49,908-0800 INFO  latex - running on Windows 10.0.26200
+2026-01-01 00:11:49,910-0800 INFO  latex - this is MiKTeX-PDFTEX 4.21.0 (1.40.27) (MiKTeX 25.4 Portable)
+2026-01-01 00:11:49,933-0800 INFO  latex - allowing known shell commands
+2026-01-01 00:11:49,940-0800 INFO  latex - setting output directory: d:/Emacs\.emacs.d\tmp\latex
+2026-01-01 00:11:49,940-0800 INFO  latex - setting aux directory: d:/Emacs\.emacs.d\tmp\latex
+2026-01-01 00:11:50,404-0800 INFO  latex - this process (25340) finishes with exit code 0
