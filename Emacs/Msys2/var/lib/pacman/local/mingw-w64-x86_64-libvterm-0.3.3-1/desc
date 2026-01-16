@@ -1,0 +1,37 @@
+%NAME%
+mingw-w64-x86_64-libvterm
+
+%VERSION%
+0.3.3-1
+
+%BASE%
+mingw-w64-libvterm
+
+%DESC%
+Abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator (mingw-w64)
+
+%URL%
+https://www.leonerd.org.uk/code/libvterm/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1692000530
+
+%INSTALLDATE%
+1768522099
+
+%PACKAGER%
+CI (msys2/msys2-autobuild/1f1fabad/5853292635)
+
+%SIZE%
+276715
+
+%LICENSE%
+spdx:MIT
+
+%VALIDATION%
+sha256
+pgp
+

@@ -1,28 +1,40 @@
-;; ======================================
-;; Portable Emacs Init
-;; ======================================
+(setq package-check-signature nil)
+;; ----------------------
+;; USB-root and pointing paths
+;; ----------------------
 
-;; ----------------------
-;; 0. Basic settings
-;; ----------------------
-(setq inhibit-startup-screen t
-      visible-bell t
-      column-number-mode t
-      scroll-conservatively 101)
-
-;; ----------------------
-;; 1. Theme
-;; ----------------------
-(load-theme 'zenburn t)
-
-;; ----------------------
-;; 2. USB and MiKTeX paths
-;; ----------------------
 ;; Dynamically detect the USB root, assuming init.el is in Emacs/.emacs.d/
 (defvar usb-root
   (file-name-directory
    (directory-file-name
     (expand-file-name "../../.." user-emacs-directory))))
+
+
+
+;; --- MSYS2 / MinGW64 toolchain for vterm ---
+(defvar msys2-root
+  (expand-file-name "Emacs/Msys2/" usb-root))
+
+(defvar msys2-mingw64-bin
+  (expand-file-name "mingw64/bin" msys2-root))
+
+(when (file-directory-p msys2-mingw64-bin)
+  ;; Prepend MinGW64 bin first
+  (setq exec-path (cons msys2-mingw64-bin exec-path))
+  (setenv "PATH" (concat msys2-mingw64-bin ";" (getenv "PATH")))
+
+  ;; Force generator
+  (setenv "CMAKE_GENERATOR" "MinGW Makefiles")
+
+  ;; Ensure CMake uses this shell environment, not MSYS bash
+  (setq shell-file-name "cmd.exe"))
+
+(setq cmake-exe   (expand-file-name "cmake.exe" msys2-mingw64-bin))
+(setq gcc-exe     (expand-file-name "gcc.exe" msys2-mingw64-bin))
+(setq make-exe    (expand-file-name "make.exe" msys2-mingw64-bin))
+(setq pkgconf-exe (expand-file-name "pkg-config.exe" msys2-mingw64-bin))
+
+
 ;; MiKTeX executables relative to USB root
 (defvar miktex-bin (expand-file-name "miktex-portable/texmfs/install/miktex/bin/x64" usb-root))
 (defvar latex-exe (expand-file-name "miktex-portable/texmfs/install/miktex/bin/x64/latex.exe" usb-root))
@@ -42,55 +54,26 @@
 (add-to-list 'exec-path miktex-bin)
 (setenv "PATH" (concat miktex-bin ";" (getenv "PATH")))
 
-;; ----------------------
-;; 3. Package system setup
-;; ----------------------
-(setq package-user-dir (expand-file-name "elpa" user-emacs-directory))
-(let ((default-directory package-user-dir))
-  (normal-top-level-add-subdirs-to-load-path))
 
 ;; ----------------------
-;; 4. Org-mode & LaTeX previews
-;; ----------------------
-(with-eval-after-load 'org
-  ;; Auto-mode
-  (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
-
-  ;; Temporary output directory for LaTeX previews
-  (setq org-latex-preview-output-directory
-        (let ((dir (expand-file-name "tmp/latex" user-emacs-directory)))
-          (unless (file-exists-p dir) (make-directory dir t))
-          dir))
-  (setq temporary-file-directory org-latex-preview-output-directory)
-
-  ;; Setup dvisvgm process using full paths
-  (setq org-latex-preview-process-alist
-        `((dvisvgm
-           :programs ("latex" "dvisvgm")
-           :description "dvi -> svg"
-           :message "Ensure LaTeX and dvisvgm are installed"
-           :use-xcolor t
-           :image-input-type "dvi"
-           :image-output-type "svg"
-           :image-size-adjust (1.0 . 1.0)
-           :latex-compiler (,latex-exe "-interaction" "nonstopmode" "-output-directory" "%o" "%f")
-           :image-converter (,dvisvgm-exe "%f" "-n" "-b" "min" "-o" "%O"))))
-
-  ;; Set default process
-  (setq org-latex-preview-default-process 'dvisvgm)
-
-  ;; Automatically preview LaTeX on startup
-  (setq org-startup-with-latex-preview t))
-
-;; ----------------------
-;; 5. Paths to config.org and config.el
+;; Paths to config.org and config.el
 ;; ----------------------
 (defvar my-config-org (expand-file-name "config.org" user-emacs-directory))
 (defvar my-config-el  (expand-file-name "config.el"  user-emacs-directory))
 
 ;; ----------------------
-;; 6. Tangle config.org if needed
+;; Tangle config.org if needed
 ;; ----------------------
+;; Adding `/path/to/simpc` to load-path so `require` can find it
+(add-to-list 'load-path "~/.emacs.d/simpc/")
+(require 'simpc-mode)
+;; Automatically enabling simpc-mode on files with extensions like .h, .c, .cpp, .hpp
+(add-to-list 'auto-mode-alist '("\\.[hc]\\(pp\\)?\\'" . simpc-mode))
+
+(defvar my-config-org (expand-file-name "config.org" user-emacs-directory))
+(defvar my-config-el  (expand-file-name "config.el"  user-emacs-directory))
+
+;; Tangle config.org if needed
 (when (or (not (file-exists-p my-config-el))
           (file-newer-than-file-p my-config-org my-config-el))
   (with-temp-message "Tangling config.org..."
@@ -98,42 +81,20 @@
     (require 'ob-tangle)
     (org-babel-tangle-file my-config-org my-config-el)))
 
-;; ----------------------
-;; 7. Load generated config.el
-;; ----------------------
+;; Load generated config.el
 (when (file-exists-p my-config-el)
   (load-file my-config-el))
 
-;; ----------------------
-;; 8. Custom variables & faces
-;; ----------------------
+(provide 'init)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   '(auctex beacon company elfeed-goodies elfeed-org elfeed-tube
-	    elfeed-webkit emms evil-collection gpt gptel
-	    help-find-org-mode ivy langtool magit pdf-tools vterm
-	    zenburn-theme)))
+ '(package-selected-packages nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-;; ----------------------
-;; 9. Helper function to toggle previews
-;; ----------------------
-(defun my/org-preview-toggle ()
-  "Toggle LaTeX previews in Org-mode."
-  (interactive)
-  (require 'org)
-  (org-preview-latex-fragment))
-
-(global-visual-line-mode 1) ;;allow text-wrapping
-(global-set-key (kbd "C-c C-x C-l") 'my/org-preview-toggle)
-
-(provide 'init)

@@ -1,0 +1,43 @@
+%NAME%
+mingw-w64-x86_64-libltdl
+
+%VERSION%
+2.5.4-3
+
+%BASE%
+mingw-w64-libtool
+
+%DESC%
+A system independent dlopen wrapper for GNU libtool (mingw-w64)
+
+%URL%
+https://www.gnu.org/software/libtool
+
+%ARCH%
+any
+
+%BUILDDATE%
+1758563627
+
+%INSTALLDATE%
+1768522100
+
+%PACKAGER%
+CI (msys2/msys2-autobuild/ecd1d51f/17921699121)
+
+%SIZE%
+221491
+
+%REASON%
+1
+
+%LICENSE%
+spdx:LGPL-2.0-or-later WITH Libtool-exception
+
+%VALIDATION%
+sha256
+pgp
+
+%XDATA%
+pkgtype=split
+

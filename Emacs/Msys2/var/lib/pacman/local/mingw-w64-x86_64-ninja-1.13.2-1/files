@@ -1,0 +1,9 @@
+%FILES%
+mingw64/
+mingw64/bin/
+mingw64/bin/ninja.exe
+mingw64/share/
+mingw64/share/licenses/
+mingw64/share/licenses/ninja/
+mingw64/share/licenses/ninja/COPYING
+
